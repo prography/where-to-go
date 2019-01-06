@@ -10,3 +10,6 @@ class Landmark(models.Model) :
 class Image(models.Model):
     url = models.TextField()
     landmark = models.ForeignKey(Landmark, on_delete=models.CASCADE)
+
+
+# test
