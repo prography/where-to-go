@@ -82,20 +82,24 @@ for enum,country in enumerate(country_list):
             break
 
 
-index=0
 with open('landmark_db.csv', 'w', newline='') as csv_file:
+    csv_writer = csv.writer(csv_file)
+    csv_writer.writerow(['id','landmark_name', 'country'])
+    index=0
     for country,landmark_list in url_all.items():
         for (landmark_name, landmark_url) in landmark_list:
-            row=[index,country, landmark_name]
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(row)
+            csv_writer.writerow([index,landmark_name, country])
             index+=1
 
 try:
     os.mkdir("landmark")
 except:
     pass
+
 with open('image_db.csv', 'w', newline='') as csv_file2:
+    csv_writer2 = csv.writer(csv_file2)
+    csv_writer2.writerow(['landmark_name', 'image_url'])
+
     for country,landmark_list in url_all.items():
         for (landmark_name, landmark_url) in landmark_list:
             try:
@@ -121,14 +125,13 @@ with open('image_db.csv', 'w', newline='') as csv_file2:
                 for i in range(0,3):
                     if src[i] == "https://www.earthtory.com/res/img/city/spot_info/spot_photo_add.gif":
                         continue
-                
+
                     try:
                         urllib.request.urlretrieve(src[i], img_path+str(i+1)+".jpg")
 
                         img_url='landmark/{}/{}'.format(landmark_name,i)
                         row=[landmark_name, img_url]
-                        csv_writer = csv.writer(csv_file2)
-                        csv_writer.writerow(row)
+                        csv_writer2.writerow(row)
 
                     except:
                         pass
