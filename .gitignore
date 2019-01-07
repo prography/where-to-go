@@ -1,3 +1,4 @@
 crawling/landmark/*
 crawling/image_db.csv
 crawling/landmark_db.csv
+data/*
