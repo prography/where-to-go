@@ -1,16 +1,6 @@
-html,body{
-    height:100%;
-  }
-
 body{
     text-align:center;
   }
-
-.main_img{
-    background-image: url('back_img1.jpg');
-    background-repeat: no-repeat;
-    background-size:100%;
-}
 
 #logo_img{
     width: 200px;
@@ -22,12 +12,12 @@ body{
     padding-bottom:100px;
 }
 
-.start{
+ .start{
     vertical-align: middle; /*왜 수직 중앙정렬x?*/
-}
+} 
 
 /*시작 버튼*/
-#start_btn{
+.start_btn{
     background:rgb(84, 188, 206);
     color:#fff;
     border:none;
@@ -39,11 +29,11 @@ body{
     transition:800ms ease all;
     outline:none;
   }
-  #start_btn:hover{
+  .start_btn:hover{
     background:rgb(186, 225, 231);
     color:rgb(84, 188, 206);
   }
-  #start_btn:before,button:after{
+  .start_btn:before,.start_btn:after{
     content:'';
     position:absolute;
     top:0;
@@ -53,13 +43,13 @@ body{
     background: rgb(84, 188, 206);
     transition:400ms ease all;
   }
-  #start_btn:after{
+  .start_btn:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  #start_btn:hover:before,button:hover:after{
+  .start_btn:hover:before,.start_btn:hover:after{
     width:100%;
     transition:800ms ease all;
   }

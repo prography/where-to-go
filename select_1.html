@@ -4,28 +4,53 @@
         <meta charset="utf-8">
         <title>Where To Go</title>
         <link rel="stylesheet" href="myStyle.css">
+        <link rel="stylesheet" type="text/css" href="./public/css/fullpage.min.css" />
+        <link rel="stylesheet" type="text/css" href="./public/css/myStyle.css" />
+	    <style>
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(./public/image/travel.jpg);
+	}
+    </style>
     </head>
-    <body class="main_img">
-        <header>
-        <div class="">
-            <h2 id="upperText">뭔가 멘트</h2>
-            <br/>
-            <p id="page_num">01</p>
+    <body>
+        <div id="fullpage">
+                <div class="section " id="section0">
+                        <h2 style="color:aliceblue">뭔가 멘트</h2>
+                        <p id="page_num" style="color:aliceblue">01</p>
+                    <table border="1" class="imgTable">
+                    <tr><td><a href="select_2.html"><img src="./public/image/bg1.jpg"/></a></td>
+                        <td style="width:20px"></td>
+                        <td><a href="select_2.html"><img src="./public/image/bg1.jpg"/></a></td></tr>
+                    <tr><td colspan="3" style="height:20px"></td>
+                    </tr>
+                    <tr><td><a href="select_2.html"><img src="./public/image/bg1.jpg"/></a></td>
+                        <td style="width:20px"></td>
+                        <td><a href="select_2.html"><img src="./public/image/bg1.jpg"/></a></td></tr>
+                    </table>
+                </div>
         </div>
-        </header>
-        <section>
-            <div>
-            <table border="0" class="imgTable">
-                <tr><td><a href="select_2.html"><img src="back_img1.jpg"/></a></td>
-                    <td style="width:20px"></td>
-                    <td><a href="select_2.html"><img src="back_img1.jpg"/></a></td></tr>
-                <tr><td colspan="3" style="height:20px"></td>
-                </tr>
-                <tr><td><a href="select_2.html"><img src="back_img1.jpg"/></a></td>
-                    <td style="width:20px"></td>
-                    <td><a href="select_2.html"><img src="back_img1.jpg"/></a></td></tr>
-            </table>
-            </div>
-        </section>
+        <script type="text/javascript" src="./public/js/fullpage.min.js"></script>
+        <script type="text/javascript">
+            var myFullpage = new fullpage('#fullpage', {
+                verticalCentered: false
+            });
+        </script>
     </body>
 </html>

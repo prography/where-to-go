@@ -4,25 +4,56 @@
         <meta charset="utf-8">
         <title>Where To Go</title>
         <link rel="stylesheet" href="myStyle.css">
+        <link rel="stylesheet" type="text/css" href="./public/css/fullpage.min.css" />
+        <link rel="stylesheet" type="text/css" href="./public/css/myStyle.css" />
+	    <style>
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(./public/image/travel.jpg);
+	}
+    </style>
     </head>
     <body>
-        <header>
-        <div class="">
-            <h2 id="upperText">뭔가 멘트</h2>
+        <div id="fullpage">
+                <div class="section " id="section0">
+                        <h2 style="color:aliceblue">뭔가 멘트</h2>
+                        <p id="page_num" style="color:aliceblue">03</p>
+                    <table border="1" class="imgTable">
+                    <tr><td><a href="select_4.html"><img src="./public/image/bg1.jpg"/></a></td>
+                        <td style="width:20px"></td>
+                        <td><a href="select_4.html"><img src="./public/image/bg1.jpg"/></a></td></tr>
+                    <tr><td colspan="3" style="height:20px"></td>
+                    </tr>
+                    <tr><td><a href="select_4.html"><img src="./public/image/bg1.jpg"/></a></td>
+                        <td style="width:20px"></td>
+                        <td><a href="select_4.html"><img src="./public/image/bg1.jpg"/></a></td></tr>
+                    </table>
+                    <div class="backButton">
+                        <a href="select_2.html" class="back_btn">뒤로가기</a>
+                    </div>
+                </div>
         </div>
-        </header>
-        <section>
-            <div>
-            <table border="1" class="imgTable">
-                <tr><td><a href="select_4.html"><img src="1"/></a>1</td>
-                    <td><a href="select_4.html"><img src="2"/></a>2</td></tr>
-                <tr><td><a href="select_4.html"><img src="3"/></a>3</td>
-                    <td><a href="select_4.html"><img src="4"/></a>4</td></tr>
-            </table>
-            </div>
-            <div class="backButton">
-                    <input type="button" value="뒤로가기" onclick="location.href='select_2.html'">
-            </div>
-        </section>
+        <script type="text/javascript" src="./public/js/fullpage.min.js"></script>
+        <script type="text/javascript">
+            var myFullpage = new fullpage('#fullpage', {
+                verticalCentered: false
+            });
+        </script>
     </body>
 </html>

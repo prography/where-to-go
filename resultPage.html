@@ -3,25 +3,44 @@
     <head>
         <meta charset="utf-8">
         <title>Where To Go</title>
-        <link rel="stylesheet" href="myStyle.css">
+        <link rel="stylesheet" href="./public/css/myStyle.css">
+        <link rel="stylesheet" type="text/css" href="./public/css/fullpage.min.css" />
+	<style>
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(./public/image/travel.jpg);
+	}
+    </style>
     </head>
-    <body class="main_img">
-        <div class="result">
-            <img src="back_img1.jpg" id="result_img1"/><br/>
+    <body id="fullpage">
+        <div class="section" id="section0">
+            <img src="./public/image/bg1.jpg" id="result_img1"/><br/>
             <p> 나라/명소이름</p>
             <p> 설명</p>
-        </div>
-        <br/>
-        <div class="result2">
+            <br/>
             <p>비슷한 장소</p>
             <ul>
-                <li><img src="back_img1.jpg" id="result_img2"/></li>
-                <li><img src="back_img1.jpg" id="result_img2"/></li>
-                <li><img src="back_img1.jpg" id="result_img2"/></li>
+                <li><img src="./public/image/back_img1.jpg" id="result_img2"/></li>
+                <li><img src="./public/image/back_img1.jpg" id="result_img2"/></li>
+                <li><img src="./public/image/back_img1.jpg" id="result_img2"/></li>
             </ul>
-        </div>
-        <div class="">
-            <input type="button" value="뒤로가기" onclick="location.href='main.html'" id=""/>
+            <a href="index.html" class="back_btn">처음으로</a>
         </div>
     </body>
 </html>
