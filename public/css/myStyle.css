@@ -12,10 +12,6 @@ body{
     padding-bottom:100px;
 }
 
- .start{
-    vertical-align: middle; /*왜 수직 중앙정렬x?*/
-} 
-
 /*시작 버튼*/
 .start_btn{
     background:rgb(84, 188, 206);
