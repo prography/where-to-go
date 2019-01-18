@@ -2,3 +2,11 @@ crawling/landmark/*
 crawling/image_db.csv
 crawling/landmark_db.csv
 data/*
+*.pyc
+*~
+__pycache__
+venv
+db.sqlite3
+/static
+.DS_Store
+.idea
