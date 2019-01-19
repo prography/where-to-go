@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +27,7 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url(../../main/static/image/travel.jpg);
+		background-image: url('{% static "image/travel.jpg" %}');
     }
     
     /*image box*/
@@ -58,22 +59,22 @@
         <div class="col-container">
             <div class="col-box">
                 <div class="col-2 style">
-                    <img src="../../static/image/travel.jpg">
-                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0]}}"/></a>-->
+                    <img src='{% static "image/bg1.jpg" %}'>
+                    {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0]}}"/></a>--> #}
                 </div>
                 <div class="col-2 style">
-                    <img src="../../static/image/travel.jpg">
-                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1]}}"/></a>-->
+                    <img src='{% static "image/bg1.jpg" %}'>
+                    {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1]}}"/></a>--> #}
                 </div>
             </div>
             <div class="col-box">
                 <div class="col-2 style">
-                    <img src="../../static/image/travel.jpg">
-                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[2]}}"><img src="{{images[2]}}"/></a>-->
+                    <img src='{% static "image/bg1.jpg" %}'>
+                    {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[2]}}"><img src="{{images[2]}}"/></a>--> #}
                 </div>
                 <div class="col-2 style">
-                    <img src="../../static/image/travel.jpg">
-                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3]}}"/></a>-->
+                    <img src='{% static "image/bg1.jpg" %}'>
+                    {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3]}}"/></a>--> #}
                 </div>
             </div>
         </div>
