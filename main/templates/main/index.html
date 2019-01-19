@@ -1,56 +1,29 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Where To Go</title>
-    <link rel="stylesheet" type="text/css" href="../../static/public/css/fullpage.min.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/myStyle.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/materialize.min.css" />
-	<style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Where To Go</title>
 
-	/* Style for our header texts
-	* --------------------------------------- */
-	.start_btn{
-		top : 50%;
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
-	.slide{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url(../../static/public/image/travel.jpg);
-	}
-</style>
+  <!-- 라이브러리 -->
+  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <!-- style  -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
 </head>
+
 <body>
+  <video class="video-test" autoplay loop>
+    <source src='{% static "video/main2.mp4" %}' type="video/mp4">
+  </video>
+  <h5 class="maintext">오늘 어디가?</h5>
+  <div class="main-btn">start</div>
+  <script type="text/javascript" src="{ static js/materialize.min.js}"></script>
 
-<div id="fullpage">
-	<div class="section " id="section0">
-        <a href='select_1.html' class="start_btn">시작</a>
-    </div>
-</div>
-
-<script type="text/javascript" src="../../static/public/js/fullpage.min.js"></script>
-<script type="text/javascript" src="../../static/public/js/materialize.min.js"></script>
-
-<script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-        verticalCentered: false
-    });
-</script>
 </body>
 </html>
