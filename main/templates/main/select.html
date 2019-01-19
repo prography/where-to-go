@@ -26,7 +26,7 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url(../../static/public/image/travel.jpg);
+		background-image: url(../../main/static/image/travel.jpg);
     }
     
     /*image box*/
@@ -54,27 +54,24 @@
 <div id="fullpage">
 	<div class="section " id="section0">
             <h2 style="color:aliceblue">뭔가 멘트</h2>
-            <p id="page_num" style="color:aliceblue">02</p>
+            <p id="page_num" style="color:aliceblue">01</p>
         <div class="col-container">
             <div class="col-box">
                 <div class="col-2 style">
-                    <a href="./select_3.html"><img src="../../static/public/image/bg1.jpg"/></a>
+                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0]}}"/></a>
                 </div>
                 <div class="col-2 style">
-                    <a href="./select_3.html"><img src="../../static/public/image/bg1.jpg"/></a>
+                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1]}}"/></a>
                 </div>
             </div>
             <div class="col-box">
                 <div class="col-2 style">
-                        <a href="./select_3.html"><img src="../../static/public/image/bg1.jpg"/></a>
+                        <a href="{% url 'select' %}?count={{count}}&selected_img={{images[2]}}"><img src="{{images[2]}}"/></a>
                 </div>
                 <div class="col-2 style">
-                    <a href="./select_3.html"><img src="../../static/public/image/bg1.jpg"/></a>
+                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3]}}"/></a>
                 </div>
             </div>
-        </div>
-        <div class="backButton">
-            <a href="./select_1.html" class="back_btn">뒤로가기</a>
         </div>
     </div>
 </div>
