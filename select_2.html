@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Where To Go</title>
+    <link rel="stylesheet" type="text/css" href="./public/css/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="./public/css/myStyle.css" />
+	<link rel="stylesheet" type="text/css" href="./public/css/materialize.min.css" />
+	<style>
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(./public/image/travel.jpg);
+    }
+    
+    /*image box*/
+    .col-container{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:10px;
+        width: 1080px;
+    }
+    .div{
+        display: block;
+    }
+    .col-box{
+        display: flex;
+        justify-content: center;
+    }
+    .col-2{
+        width: 40%;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+            <h2 style="color:aliceblue">뭔가 멘트</h2>
+            <p id="page_num" style="color:aliceblue">02</p>
+        <div class="col-container">
+            <div class="col-box">
+                <div class="col-2 style">
+                    <a href="./select_3.html"><img src="./public/image/bg1.jpg"/></a>
+                </div>
+                <div class="col-2 style">
+                    <a href="./select_3.html"><img src="./public/image/bg1.jpg"/></a>
+                </div>
+            </div>
+            <div class="col-box">
+                <div class="col-2 style">
+                        <a href="./select_3.html"><img src="./public/image/bg1.jpg"/></a>
+                </div>
+                <div class="col-2 style">
+                    <a href="./select_3.html"><img src="./public/image/bg1.jpg"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="backButton">
+            <a href="./select_1.html" class="back_btn">뒤로가기</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="./public/js/fullpage.min.js"></script>
+<script type="text/javascript" src="./public/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: false
+    });
+</script>
+</body>
+</html>
