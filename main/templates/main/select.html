@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Where To Go</title>
-    <link rel="stylesheet" type="text/css" href="../../static/public/css/fullpage.min.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/myStyle.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
+    <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+    <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' />
 	<style>
 
 	/* Centered texts in each section
@@ -58,18 +58,22 @@
         <div class="col-container">
             <div class="col-box">
                 <div class="col-2 style">
-                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0]}}"/></a>
+                    <img src="../../static/image/travel.jpg">
+                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0]}}"/></a>-->
                 </div>
                 <div class="col-2 style">
-                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1]}}"/></a>
+                    <img src="../../static/image/travel.jpg">
+                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1]}}"/></a>-->
                 </div>
             </div>
             <div class="col-box">
                 <div class="col-2 style">
-                        <a href="{% url 'select' %}?count={{count}}&selected_img={{images[2]}}"><img src="{{images[2]}}"/></a>
+                    <img src="../../static/image/travel.jpg">
+                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[2]}}"><img src="{{images[2]}}"/></a>-->
                 </div>
                 <div class="col-2 style">
-                    <a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3]}}"/></a>
+                    <img src="../../static/image/travel.jpg">
+                    <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3]}}"/></a>-->
                 </div>
             </div>
         </div>

@@ -63,6 +63,8 @@
                     <li id="img1"><img src="../../static/public/image/back_img1.jpg" alt=""/></li>
                     <li id="img2"><img src="../../static/public/image/bg1.jpg" alt=""/></li>
                     <li id="img3"><img src="../../static/public/image/travel.jpg" alt=""/></li>
+                    <!--django template for문 사용하기-->
+                    <!--{for i in result_img}-->
                 <b><p>나라이름/명소이름</p></b>
                 </div>
             </div>
@@ -70,12 +72,13 @@
                 <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
                 <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
                 <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
+                <!--{for i in simillar_img}-->
             </div>
         </div>
     </div>
 </div>
-<script type="text/javascript" src="../../static/public/js/fullpage.min.js"></script>
-<script type="text/javascript" src="../../static/public/js/materialize.min.js"></script>
+<script type="text/javascript" src="{ static js/fullpage.min.js}"></script>
+<script type="text/javascript" src="{ static js/materialize.min.js}"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
