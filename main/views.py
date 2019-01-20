@@ -59,17 +59,18 @@ def select_page(request):
         landmark = result.first().landmark
         country = Landmark.objects.get(landmark=landmark).country
 
-        # resurl_img 개수만큼 append
+        # 결과 landmark 이미지
+        landmark_img = Image.objects.filter(landmark=landmark)
+        result_img = []
+        for land in landmark_img:
+            result_img.append(land.landmark)
 
+        # 비슷한 이미지
+        similar_img = []
+        similar_img.append(result[1].url)
+        similar_img.append(result[2].url)
+        similar_img.append(result[3].url)
 
-
-        si_img1 = result[1].url
-        si_img2 = result[2].url
-        si_img3 = result[3].url
-
-
-        return render(request, 'main/resultPage.html', { })
-
-        # result_img = []
-        # simillar_img = []
-
+        return render(request, 'main/resultPage.html', {'result_img': result_img,
+                                                        'similar_img': similar_img,
+                                                        'landmark': landmark, 'country': country})
