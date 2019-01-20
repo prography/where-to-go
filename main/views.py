@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from main.models import Landmark, Image
 
-# Create your views here.
-
 
 def index_page(request):
     return render(request, 'main/index.html', {})
@@ -19,8 +17,7 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=4).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': count + 1,
-                                                    'images': [img1.url, img2.url, img3.url, img4.url]})
-
+                                                    'images': [img1, img2, img3, img4]})
 
     elif count == 2:
         choice = Image.objects.filter(url=selected_img)
@@ -32,7 +29,7 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=4).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': count + 1,
-                                                    'images': [img1.url, img2.url, img3.url, img4.url]})
+                                                    'images': [img1, img2, img3, img4]})
 
 
     elif count == 3:
@@ -46,7 +43,7 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': count + 1,
-                                                    'images': [img1.url, img2.url, img3.url, img4.url]})
+                                                    'images': [img1, img2, img3, img4]})
 
     # 결과
     elif count == 4:
@@ -60,16 +57,13 @@ def select_page(request):
         country = Landmark.objects.get(landmark=landmark).country
 
         # 결과 landmark 이미지
-        landmark_img = Image.objects.filter(landmark=landmark)
-        result_img = []
-        for land in landmark_img:
-            result_img.append(land.landmark)
+        result_img = Image.objects.filter(landmark=landmark)
 
         # 비슷한 이미지
         similar_img = []
-        similar_img.append(result[1].url)
-        similar_img.append(result[2].url)
-        similar_img.append(result[3].url)
+        similar_img.append(result[1])
+        similar_img.append(result[2])
+        similar_img.append(result[3])
 
         return render(request, 'main/resultPage.html', {'result_img': result_img,
                                                         'similar_img': similar_img,
