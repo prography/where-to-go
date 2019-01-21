@@ -32,6 +32,10 @@ a{
   text-decoration: none;
 }
 
+.textshadow{
+  text-shadow: 3px 2px 2px gray;
+}
+
 /* ------------------------------------------------------- */
 /* index.html style */
 
@@ -49,11 +53,17 @@ a{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: black;
   text-align: center;
 }
 .maintext{
   top: 50%;
+}
+h5 .htext{
+  font-size: 20px;
+}
+b{
+  text-align: center;
 }
 .main-btn{
   bottom: 20%;
@@ -74,6 +84,7 @@ a{
   font-weight: 300;
   font-size: 10px;
   width: 100%;
+  color: #fff;
 }
 
 /* ------------------------------------------------------- */
