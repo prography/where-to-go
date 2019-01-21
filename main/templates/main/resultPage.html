@@ -1,12 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Where To Go</title>
-    <link rel="stylesheet" type="text/css" href="../../static/public/css/fullpage.min.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/myStyle.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/materialize.min.css" />
-	<style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Where To Go</title>
+
+  <!-- 라이브러리 -->
+  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <!-- style  -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
+</head>
+
+<style>
 
 	/* Centered texts in each section
 	* --------------------------------------- */
@@ -26,7 +37,7 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url(../../static/public/image/travel.jpg);
+		background-image: url();
     }
     
     /*image box*/
@@ -54,7 +65,9 @@
 </style>
 </head>
 <body>
-
+    <video class="video-test" autoplay loop>
+        <source src='{% static "video/main2.mp4" %}' type="video/mp4">
+    </video>               
 <div id="fullpage">
 	<div class="section " id="section0">
         <div class="col-container">
