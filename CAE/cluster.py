@@ -27,6 +27,8 @@ encodings = encodings[1:]
 # print(encodings.shape)
 # quit()
 
+
+
 # cluster step 1
 clustering = KMeans(n_clusters=4).fit(encodings)
 # print(clustering.labels_)
@@ -45,7 +47,7 @@ with open('data/image_db.csv', 'r') as csvfile:
 # print(new_lines[0])
 # quit()
 
-with open('image_db.csv', 'w') as csvfile:
+with open('clustered_image_db.csv', 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
     for line in new_lines:
         csvwriter.writerow(line)
@@ -56,7 +58,7 @@ sum=0
 for cluster_level in range(3,6):
     for cluster_idx in range(4):
         indices = []
-        with open('image_db.csv', 'r') as csvfile:
+        with open('clustered_image_db.csv', 'r') as csvfile:
             csvreader = csv.reader(csvfile)
             next(csvreader)
             for i,line in enumerate(csvreader):
@@ -77,7 +79,7 @@ for cluster_level in range(3,6):
         c=0
 
         new_lines=[]
-        with open('image_db.csv', 'r') as csvfile:
+        with open('clustered_image_db.csv', 'r') as csvfile:
             csvreader = csv.reader(csvfile)
             for i,line in enumerate(csvreader):
                 if i==0:
@@ -91,7 +93,7 @@ for cluster_level in range(3,6):
                     else:
                         new_lines.append(line)
 
-        with open('image_db.csv', 'w') as csvfile:
+        with open('clustered_image_db.csv', 'w') as csvfile:
             csvwriter = csv.writer(csvfile)
             for line in new_lines:
                 csvwriter.writerow(line)
