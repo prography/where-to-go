@@ -1,10 +1,11 @@
 from sklearn.cluster import KMeans
 import numpy as np
 import csv
+import codecs
 
 new_lines=[]
 c=0
-with open('data/image_db.csv', 'r') as csvfile:
+with codecs.open('data/image_db.csv', 'r', 'utf-8') as csvfile:
     line_count = len(csvfile.readlines())
     csvreader = csv.reader(csvfile)
 
@@ -34,7 +35,7 @@ clustering = KMeans(n_clusters=4).fit(encodings)
 # print(clustering.labels_)
 
 new_lines=[]
-with open('data/image_db.csv', 'r') as csvfile:
+with codecs.open('data/image_db.csv', 'r', 'utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
 
     for i,line in enumerate(csvreader):
@@ -47,7 +48,7 @@ with open('data/image_db.csv', 'r') as csvfile:
 # print(new_lines[0])
 # quit()
 
-with open('clustered_image_db.csv', 'w') as csvfile:
+with codecs.open('clustered_image_db.csv', 'w', 'utf-8') as csvfile:
     csvwriter = csv.writer(csvfile)
     for line in new_lines:
         csvwriter.writerow(line)
@@ -55,10 +56,10 @@ with open('clustered_image_db.csv', 'w') as csvfile:
 
 sum=0
 # further cluster hierarchically
-for cluster_level in range(3,6):
+for cluster_level in range(3,5):
     for cluster_idx in range(4):
         indices = []
-        with open('clustered_image_db.csv', 'r') as csvfile:
+        with codecs.open('clustered_image_db.csv', 'r', 'utf-8') as csvfile:
             csvreader = csv.reader(csvfile)
             next(csvreader)
             for i,line in enumerate(csvreader):
@@ -79,7 +80,7 @@ for cluster_level in range(3,6):
         c=0
 
         new_lines=[]
-        with open('clustered_image_db.csv', 'r') as csvfile:
+        with codecs.open('clustered_image_db.csv', 'r', 'utf-8') as csvfile:
             csvreader = csv.reader(csvfile)
             for i,line in enumerate(csvreader):
                 if i==0:
@@ -93,7 +94,7 @@ for cluster_level in range(3,6):
                     else:
                         new_lines.append(line)
 
-        with open('clustered_image_db.csv', 'w') as csvfile:
+        with codecs.open('clustered_image_db.csv', 'w', 'utf-8') as csvfile:
             csvwriter = csv.writer(csvfile)
             for line in new_lines:
                 csvwriter.writerow(line)
