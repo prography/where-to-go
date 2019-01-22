@@ -42,12 +42,15 @@ import codecs
 #         csvwriter.writerow(line)
 
 dirs = []
+lines = []
 with codecs.open('image_db.csv', 'r', 'utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
 
     for i,line in enumerate(csvreader):
         if i!=0:
-            dirs.append(line[-1])
+            dir = line[-1]
+            dirs.append(dir)
+            lines.append(line)
 # print(dirs)
 
 files = []
@@ -73,6 +76,14 @@ for d in os.listdir('landmark'):
 # dirs = list(set(dirs))
 # print(len(files))
 # print(len(dirs))
-# for dir in dirs:
-#     if dir not in files:
-#         print(dir)
+
+new_lines = []
+for file in files:
+    new_lines.append(lines[dirs.index(file)])
+
+with codecs.open('image_db.csv', 'w', 'utf-8') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    header = ['landmark_name','image_url','cluster1','cluster2','cluster3']
+    csvwriter.writerow(header)
+    for line in new_lines:
+        csvwriter.writerow(line)
