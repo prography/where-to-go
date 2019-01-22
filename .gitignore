@@ -10,4 +10,4 @@ db.sqlite3
 /static
 .DS_Store
 .idea
-CAE/data
+CAE/data/landmark
