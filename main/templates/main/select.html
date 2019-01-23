@@ -8,13 +8,18 @@
   <title>Where To Go</title>
 
   <!-- 라이브러리 -->
-  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
   <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
   <!-- style  -->
   <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
   <!-- font -->
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
+  <style>
+    img{
+          width:400px;
+          height:300px;
+    }
+  </style>
 </head>
 
 <body>
@@ -23,25 +28,21 @@
 </video>
   <div class="text-position maintext">
         <div class="col-container textshadow">
-                <h4 style="color:aliceblue">마음에 드는 여행지를 고르세요</h4></br></br>
+                <h5 style="color:aliceblue">마음에 드는 여행지를 고르세요</h5></br></br>
                 <div class="col-box">
-                    <div class="col-2 style cropping">
-                        <img src='{% static "image/back_img1.jpg" %}'  height="100%" width="100%"/>
-                        {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[0]}}"><img src="{{images[0].url}}"/></a>--> #}
+                    <div class="col-2 style">
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[0].url' %}"><img src="{% static 'images[0].url' %}" height=100% width=100%/></a>
                     </div>
-                    <div class="col-2 style cropping">
-                        <img src='{% static "image/bg1.jpg" %}'  height="100%" width="100%"/>
-                        {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[1]}}"><img src="{{images[1].url}}"/></a>--> #}
+                    <div class="col-2 style">
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[1].url' %}"><img src="{% static 'images[1].url' %}" height=100% width=100%/></a>
                     </div>
                 </div>
                 <div class="col-box">
-                    <div class="col-2 style cropping">
-                        <img src='{% static "image/main.jpg" %}' height="100%" width="100%"/>
-                        {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[2].url}}"/></a>--> #}
+                    <div class="col-2 style">
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[3].url' %}"><img src="{% static 'images[3].url' %}" height=100% width=100%/></a>
                     </div>
-                    <div class="col-2 style cropping">
-                        <img src='{% static "image/bg1.jpg" %}' height="100%" width="100%"/>
-                        {# <!--<a href="{% url 'select' %}?count={{count}}&selected_img={{images[3]}}"><img src="{{images[3].url}}"/></a>--> #}
+                    <div class="col-2 style">
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[4].url' %}"><img src="{% static 'images[4].url' %}" height=100% width=100%/></a>
                     </div>
                 </div>
             </div>
