@@ -8,18 +8,18 @@ def index_page(request):
 
 def select_page(request):
     count = request.GET.get('count')
-    selected_img = request.GET.get('selected_img')
+    selected_img = request.GET.get('selected_img', None)
 
-    if count == 1:
+    if count == "1":
         img1 = Image.objects.filter(cluster1=0).order_by('?').first()
         img2 = Image.objects.filter(cluster1=1).order_by('?').first()
         img3 = Image.objects.filter(cluster1=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=3).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': count + 1,
+        return render(request, 'main/select.html', {'count': int(count) + 1,
                                                     'images': [img1, img2, img3, img4]})
 
-    elif count == 2:
+    elif count == "2":
         choice = Image.objects.filter(url=selected_img)
         cluster1 = choice.cluster1
 
@@ -28,10 +28,10 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=cluster1, cluster2=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=3).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': count + 1,
+        return render(request, 'main/select.html', {'count': int(count) + 1,
                                                     'images': [img1, img2, img3, img4]})
 
-    elif count == 3:
+    elif count == "3":
         choice = Image.objects.filter(url=selected_img)
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
@@ -41,11 +41,11 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': count + 1,
+        return render(request, 'main/select.html', {'count': int(count) + 1,
                                                     'images': [img1, img2, img3, img4]})
 
     # resultPage
-    elif count == 4:
+    elif count == "4":
         choice = Image.objects.filter(url=selected_img)
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
