@@ -13,26 +13,20 @@
   <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
   <!-- font -->
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-
   <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   <style>
-    .wrap-test {
-      max-width: 400px;
-      max-height: 300px;
-      overflow: hidden;
+    img{
+        width:500px;
+        height:400px;
     }
-    .wrap-test .wrap{
-      max-width: initial;
-    }
-  </style>
+</style>
 </head>
-
 <body>
   <video class="video-test" autoplay loop>
     <source src='{% static "video/main2.mp4" %}' type="video/mp4">
 </video>
     <div class="text-position maintext">
-                <h5 style="color:aliceblue">마음에 드는 여행지를 고르세요</h5></br></br>
+                <h5 style="color:aliceblue">마음에 드는 여행지를 고르세요</h5></br>
                 <div class="col-box">
                     <div class="col-2">
                         <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img1 }}">
