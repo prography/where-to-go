@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.db.models import Q
 from main.models import Landmark, Image
 
 
@@ -37,10 +38,12 @@ def select_page(request):
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
 
-        img1 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img2 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
+        third = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?')
+
+        img1 = third[0]
+        img2 = third[1]
+        img3 = third[2]
+        img4 = third[3]
 
         return render(request, 'main/select.html', {'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
@@ -60,10 +63,22 @@ def select_page(request):
         result_img = Image.objects.filter(landmark_id=result_land)
 
         # 비슷한 이미지
-        similar_img = [final[1], final[2], final[3]]
+        similar_img = []
+        cnt = 0
+
+        for image in final:
+            if image.landmark == result.landmark_id:
+                continue
+            else:
+                similar_img.append(image)
+                cnt += 1
+                if cnt == 3:
+                    break
+
         similar_land = []
         for s in similar_img:
             similar_land.append(Landmark.objects.get(id=s.landmark_id))
 
         return render(request, 'main/resultPage.html', {'result_img': result_img, 'result_land': result_land,
                                                         'similar_img': similar_img, 'similar_land': similar_land})
+
