@@ -1,0 +1,650 @@
+landmark_name,image_url,cluster1,cluster2,cluster3
+32.05,landmark/32.05/2.jpg,2,1,3
+32.05,landmark/32.05/3.jpg,3,1,0
+Altes Tramdepot,landmark/Altes Tramdepot/1.jpg,3,0,2
+Altes Tramdepot,landmark/Altes Tramdepot/3.jpg,3,2,0
+Ambasada,landmark/Ambasada/1.jpg,1,0,1
+Arsenał,landmark/Arsenał/2.jpg,1,3,0
+Atlantis Water Adventure,landmark/Atlantis Water Adventure/1.jpg,0,3,1
+Atlantis Water Adventure,landmark/Atlantis Water Adventure/3.jpg,1,2,1
+Atze Peng,landmark/Atze Peng/3.jpg,1,2,1
+Baja Brewing Company,landmark/Baja Brewing Company/1.jpg,2,2,3
+Baja Brewing Company,landmark/Baja Brewing Company/2.jpg,2,3,2
+Baywalk Mall,landmark/Baywalk Mall/1.jpg,1,0,1
+Beach,landmark/Beach/2.jpg,1,2,1
+Beach,landmark/Beach/3.jpg,1,1,1
+Bistronomy,landmark/Bistronomy/1.jpg,1,3,0
+Bistronomy,landmark/Bistronomy/2.jpg,1,1,1
+Bistronomy,landmark/Bistronomy/3.jpg,2,1,3
+Bogota Beer Company,landmark/Bogota Beer Company/2.jpg,2,0,3
+Boston,landmark/Boston/3.jpg,1,3,0
+Bowe's Lounge,landmark/Bowe's Lounge/3.jpg,1,2,1
+Brodarica beach,landmark/Brodarica beach/1.jpg,0,2,2
+Brodarica beach,landmark/Brodarica beach/2.jpg,3,2,0
+Brodarica beach,landmark/Brodarica beach/3.jpg,0,2,2
+Buitenhof,landmark/Buitenhof/1.jpg,3,1,0
+Buitenhof,landmark/Buitenhof/2.jpg,0,0,0
+Buitenhof,landmark/Buitenhof/3.jpg,2,0,3
+Carmen,landmark/Carmen/1.jpg,1,2,1
+Carmen,landmark/Carmen/3.jpg,2,3,2
+Casa de la Gastronomia Peruana,landmark/Casa de la Gastronomia Peruana/1.jpg,3,1,0
+Casa de la Gastronomia Peruana,landmark/Casa de la Gastronomia Peruana/2.jpg,2,0,3
+Casa de la Gastronomia Peruana,landmark/Casa de la Gastronomia Peruana/3.jpg,1,3,0
+Casa E,landmark/Casa E/1.jpg,1,2,1
+Casa E,landmark/Casa E/2.jpg,0,2,2
+Casa E,landmark/Casa E/3.jpg,1,2,1
+Cava Baja,landmark/Cava Baja/1.jpg,2,3,2
+Cava Baja,landmark/Cava Baja/2.jpg,2,0,3
+Cerveceria Nacional,landmark/Cerveceria Nacional/1.jpg,1,2,1
+Cerveceria Nacional,landmark/Cerveceria Nacional/2.jpg,2,0,3
+Cerveceria Nacional,landmark/Cerveceria Nacional/3.jpg,2,0,3
+Cerveceria Truf,landmark/Cerveceria Truf/1.jpg,3,2,0
+Cerveceria Truf,landmark/Cerveceria Truf/2.jpg,3,1,0
+Cerveceria Truf,landmark/Cerveceria Truf/3.jpg,1,2,1
+Citra XXI,landmark/Citra XXI/1.jpg,1,2,1
+Citra XXI,landmark/Citra XXI/2.jpg,2,3,2
+City marine,landmark/City marine/1.jpg,2,0,3
+City marine,landmark/City marine/2.jpg,3,2,0
+City marine,landmark/City marine/3.jpg,2,1,3
+Conservatorio Nacional de Musica - Sede Historica,landmark/Conservatorio Nacional de Musica - Sede Historica/1.jpg,1,3,0
+Conservatorio Nacional de Musica - Sede Historica,landmark/Conservatorio Nacional de Musica - Sede Historica/2.jpg,3,1,0
+Cossab,landmark/Cossab/1.jpg,0,2,2
+Cossab,landmark/Cossab/2.jpg,0,2,2
+Cossab,landmark/Cossab/3.jpg,3,1,0
+De Golfslag Beachclub,landmark/De Golfslag Beachclub/1.jpg,3,1,0
+De Golfslag Beachclub,landmark/De Golfslag Beachclub/2.jpg,2,1,3
+De Golfslag Beachclub,landmark/De Golfslag Beachclub/3.jpg,2,1,3
+De Munt,landmark/De Munt/1.jpg,2,0,0
+De Munt,landmark/De Munt/2.jpg,2,0,3
+De Munt,landmark/De Munt/3.jpg,1,3,0
+De Scheldekaaien,landmark/De Scheldekaaien/1.jpg,0,1,2
+De Scheldekaaien,landmark/De Scheldekaaien/2.jpg,2,1,3
+De Scheldekaaien,landmark/De Scheldekaaien/3.jpg,2,1,3
+Dhiffushi Bandharu,landmark/Dhiffushi Bandharu/1.jpg,1,2,1
+Dhiffushi Bandharu,landmark/Dhiffushi Bandharu/3.jpg,2,2,3
+Dresdner Zwinger,landmark/Dresdner Zwinger/1.jpg,1,0,1
+Dresdner Zwinger,landmark/Dresdner Zwinger/2.jpg,3,2,0
+Dresdner Zwinger,landmark/Dresdner Zwinger/3.jpg,1,2,1
+Drunk Sinatra,landmark/Drunk Sinatra/3.jpg,3,0,2
+Edible Canada at the Market,landmark/Edible Canada at the Market/1.jpg,3,2,0
+Edible Canada at the Market,landmark/Edible Canada at the Market/2.jpg,2,0,3
+Einstein-Haus,landmark/Einstein-Haus/2.jpg,2,2,3
+Einstein-Haus,landmark/Einstein-Haus/3.jpg,3,2,0
+El Squid Roe,landmark/El Squid Roe/1.jpg,3,3,3
+El Squid Roe,landmark/El Squid Roe/2.jpg,3,3,3
+Erasmus Corner,landmark/Erasmus Corner/1.jpg,1,0,1
+Erasmus Corner,landmark/Erasmus Corner/2.jpg,1,3,0
+Erasmus Corner,landmark/Erasmus Corner/3.jpg,0,2,2
+Fame,landmark/Fame/3.jpg,2,0,0
+Filmstaden Soder,landmark/Filmstaden Soder/1.jpg,1,1,1
+Filmstaden Soder,landmark/Filmstaden Soder/2.jpg,1,0,1
+Filmstaden Soder,landmark/Filmstaden Soder/3.jpg,2,2,3
+Galerie des Glaces,landmark/Galerie des Glaces/1.jpg,3,0,2
+Galerie des Glaces,landmark/Galerie des Glaces/2.jpg,2,2,3
+Galerie des Glaces,landmark/Galerie des Glaces/3.jpg,1,3,0
+Garden of the Groves,landmark/Garden of the Groves/1.jpg,3,1,0
+Garden of the Groves,landmark/Garden of the Groves/2.jpg,1,3,0
+Garden of the Groves,landmark/Garden of the Groves/3.jpg,3,2,0
+Grand Canal Wharf,landmark/Grand Canal Wharf/3.jpg,3,3,3
+Grote Markt,landmark/Grote Markt/1.jpg,1,3,0
+Grote Markt,landmark/Grote Markt/2.jpg,1,3,0
+Grote Markt,landmark/Grote Markt/3.jpg,1,3,0
+Haagse Bos,landmark/Haagse Bos/1.jpg,1,3,0
+Haagse Bos,landmark/Haagse Bos/3.jpg,1,2,1
+Hacienda,landmark/Hacienda/2.jpg,2,0,3
+Hacienda,landmark/Hacienda/3.jpg,2,3,2
+Harischandra Ghat,landmark/Harischandra Ghat/1.jpg,1,0,1
+Harischandra Ghat,landmark/Harischandra Ghat/2.jpg,1,2,1
+Harischandra Ghat,landmark/Harischandra Ghat/3.jpg,1,2,1
+HD Sport Center,landmark/HD Sport Center/1.jpg,3,3,3
+HD Sport Center,landmark/HD Sport Center/2.jpg,3,1,0
+HD Sport Center,landmark/HD Sport Center/3.jpg,3,0,2
+Hof van Liere,landmark/Hof van Liere/1.jpg,2,0,0
+Hof van Liere,landmark/Hof van Liere/2.jpg,2,0,3
+Hof van Liere,landmark/Hof van Liere/3.jpg,1,2,1
+Hulhumale' BBQ Beach,landmark/Hulhumale' BBQ Beach/1.jpg,3,3,3
+Hulhumale' Main Road,landmark/Hulhumale' Main Road/2.jpg,2,1,3
+Hulhumale' Main Road,landmark/Hulhumale' Main Road/3.jpg,3,1,0
+Jardin Botanico,landmark/Jardin Botanico/1.jpg,1,3,0
+Jardin Botanico,landmark/Jardin Botanico/2.jpg,3,1,0
+Jeleni skok,landmark/Jeleni skok/1.jpg,2,3,2
+Jeleni skok,landmark/Jeleni skok/2.jpg,1,0,1
+Jernbanetorget,landmark/Jernbanetorget/1.jpg,2,3,2
+Jernbanetorget,landmark/Jernbanetorget/2.jpg,1,2,1
+Jernbanetorget,landmark/Jernbanetorget/3.jpg,2,0,0
+Kalibata XXI,landmark/Kalibata XXI/2.jpg,2,1,3
+Kalibata XXI,landmark/Kalibata XXI/3.jpg,1,3,0
+Kavarna Tromostovje,landmark/Kavarna Tromostovje/1.jpg,1,2,1
+Kitsilano Public Pool,landmark/Kitsilano Public Pool/1.jpg,2,3,2
+Kitsilano Public Pool,landmark/Kitsilano Public Pool/2.jpg,2,2,3
+Kitsilano Public Pool,landmark/Kitsilano Public Pool/3.jpg,3,0,2
+Kornmarkt,landmark/Kornmarkt/1.jpg,1,1,1
+Kornmarkt,landmark/Kornmarkt/3.jpg,3,2,0
+Kungsholmstorg,landmark/Kungsholmstorg/1.jpg,1,2,1
+Kungsholmstorg,landmark/Kungsholmstorg/3.jpg,3,2,0
+La Chilenita,landmark/La Chilenita/1.jpg,2,2,3
+La Chilenita,landmark/La Chilenita/2.jpg,2,1,3
+La Chilenita,landmark/La Chilenita/3.jpg,1,2,1
+La Muse,landmark/La Muse/1.jpg,3,1,0
+La Muse,landmark/La Muse/2.jpg,2,0,3
+La Muse,landmark/La Muse/3.jpg,0,3,1
+Largo do Carmo,landmark/Largo do Carmo/1.jpg,0,3,1
+Largo do Carmo,landmark/Largo do Carmo/2.jpg,1,3,0
+Largo do Carmo,landmark/Largo do Carmo/3.jpg,1,1,1
+Limelight,landmark/Limelight/1.jpg,1,2,1
+Limelight,landmark/Limelight/2.jpg,3,2,0
+Limelight,landmark/Limelight/3.jpg,3,2,0
+Linko,landmark/Linko/2.jpg,3,0,2
+Lisboa Story Centre,landmark/Lisboa Story Centre/1.jpg,1,0,1
+Lisboa Story Centre,landmark/Lisboa Story Centre/3.jpg,2,1,3
+Ljosanott,landmark/Ljosanott/1.jpg,2,1,3
+Ljosanott,landmark/Ljosanott/2.jpg,1,3,0
+Ljosanott,landmark/Ljosanott/3.jpg,2,0,3
+Lost Lagoon,landmark/Lost Lagoon/1.jpg,2,2,3
+Lost Lagoon,landmark/Lost Lagoon/2.jpg,2,2,3
+Lost Lagoon,landmark/Lost Lagoon/3.jpg,1,1,1
+Louisiane Brewhouse,landmark/Louisiane Brewhouse/2.jpg,2,0,0
+Louisiane Brewhouse,landmark/Louisiane Brewhouse/3.jpg,1,2,1
+Lovers Beach,landmark/Lovers Beach/1.jpg,0,2,2
+Lovers Beach,landmark/Lovers Beach/2.jpg,3,1,0
+Lovers Beach,landmark/Lovers Beach/3.jpg,1,1,1
+Lucaya Beach,landmark/Lucaya Beach/1.jpg,3,3,3
+Lucaya Beach,landmark/Lucaya Beach/3.jpg,1,0,1
+Lux Golf Center,landmark/Lux Golf Center/1.jpg,3,0,2
+Lux Golf Center,landmark/Lux Golf Center/3.jpg,3,1,2
+Maa Kandu,landmark/Maa Kandu/2.jpg,1,0,1
+Maa Kandu,landmark/Maa Kandu/3.jpg,1,1,1
+Maafannu Buru,landmark/Maafannu Buru/2.jpg,2,3,2
+Maafannu Buru,landmark/Maafannu Buru/3.jpg,0,2,2
+Maafushi Jetty,landmark/Maafushi Jetty/1.jpg,0,1,2
+Maafushi Jetty,landmark/Maafushi Jetty/2.jpg,2,2,3
+Mal Artha Gading,landmark/Mal Artha Gading/1.jpg,1,1,1
+Mal Artha Gading,landmark/Mal Artha Gading/2.jpg,1,0,1
+Mal Artha Gading,landmark/Mal Artha Gading/3.jpg,3,1,0
+Mandala,landmark/Mandala/1.jpg,1,2,1
+Mandala,landmark/Mandala/2.jpg,2,0,3
+Mandala,landmark/Mandala/3.jpg,1,3,0
+Marex,landmark/Marex/1.jpg,1,0,1
+Marex,landmark/Marex/2.jpg,1,1,1
+Maxine,landmark/Maxine/1.jpg,1,2,1
+Maxine,landmark/Maxine/2.jpg,1,3,0
+Maxine,landmark/Maxine/3.jpg,3,0,2
+Maybe Later,landmark/Maybe Later/1.jpg,1,2,1
+Maybe Later,landmark/Maybe Later/2.jpg,3,1,0
+Maybe Later,landmark/Maybe Later/3.jpg,3,1,0
+Meir,landmark/Meir/1.jpg,1,2,1
+Meir,landmark/Meir/2.jpg,2,1,3
+Meir,landmark/Meir/3.jpg,1,2,1
+MEO Arena,landmark/MEO Arena/1.jpg,1,3,0
+MEO Arena,landmark/MEO Arena/2.jpg,2,0,3
+MEO Arena,landmark/MEO Arena/3.jpg,2,1,3
+Miniature World,landmark/Miniature World/1.jpg,1,2,1
+Miniature World,landmark/Miniature World/2.jpg,3,0,2
+Miniature World,landmark/Miniature World/3.jpg,1,0,1
+MOJO,landmark/MOJO/1.jpg,2,3,2
+Monticulo,landmark/Monticulo/1.jpg,1,1,1
+Monticulo,landmark/Monticulo/2.jpg,1,0,1
+Monticulo,landmark/Monticulo/3.jpg,1,2,1
+Monument Grand-Duchesse Charlotte,landmark/Monument Grand-Duchesse Charlotte/1.jpg,2,0,3
+Monument Grand-Duchesse Charlotte,landmark/Monument Grand-Duchesse Charlotte/2.jpg,2,2,3
+Monument Grand-Duchesse Charlotte,landmark/Monument Grand-Duchesse Charlotte/3.jpg,1,3,0
+Mulini beach,landmark/Mulini beach/1.jpg,2,0,0
+Mulini beach,landmark/Mulini beach/2.jpg,1,2,1
+Mulini beach,landmark/Mulini beach/3.jpg,1,0,1
+Mulligan's,landmark/Mulligan's/2.jpg,3,1,0
+Musee des beaux-arts de Montreal (MBAM),landmark/Musee des beaux-arts de Montreal (MBAM)/1.jpg,3,2,0
+Musee des beaux-arts de Montreal (MBAM),landmark/Musee des beaux-arts de Montreal (MBAM)/2.jpg,3,2,0
+Musee des beaux-arts de Montreal (MBAM),landmark/Musee des beaux-arts de Montreal (MBAM)/3.jpg,3,0,2
+Museet for Samtidskunst,landmark/Museet for Samtidskunst/1.jpg,0,1,2
+Museo Inka,landmark/Museo Inka/1.jpg,2,3,2
+Muzeum Karlovy Vary,landmark/Muzeum Karlovy Vary/1.jpg,3,3,3
+Muzeum Karlovy Vary,landmark/Muzeum Karlovy Vary/3.jpg,2,1,3
+Mysore Palace,landmark/Mysore Palace/1.jpg,1,0,1
+Mysore Palace,landmark/Mysore Palace/2.jpg,1,0,1
+Nenea Iancu,landmark/Nenea Iancu/1.jpg,3,1,0
+Nenea Iancu,landmark/Nenea Iancu/2.jpg,1,2,1
+Nenea Iancu,landmark/Nenea Iancu/3.jpg,3,1,0
+Niagara Falls (American Side),landmark/Niagara Falls (American Side)/1.jpg,2,0,3
+Niagara Falls (American Side),landmark/Niagara Falls (American Side)/2.jpg,1,3,0
+Niagara Falls (American Side),landmark/Niagara Falls (American Side)/3.jpg,1,2,1
+Nikki Beach,landmark/Nikki Beach/1.jpg,3,1,0
+Nikki Beach,landmark/Nikki Beach/2.jpg,3,1,0
+Nikki Beach,landmark/Nikki Beach/3.jpg,2,0,3
+Noel,landmark/Noel/1.jpg,1,3,0
+Norrmalmstorg,landmark/Norrmalmstorg/1.jpg,2,2,3
+Norrmalmstorg,landmark/Norrmalmstorg/2.jpg,1,0,1
+Norrmalmstorg,landmark/Norrmalmstorg/3.jpg,1,2,1
+Nybroplan,landmark/Nybroplan/1.jpg,1,2,1
+Nybroplan,landmark/Nybroplan/2.jpg,1,0,1
+Nybroplan,landmark/Nybroplan/3.jpg,1,3,0
+O'Connell's,landmark/O'Connell's/2.jpg,3,1,1
+Observation Deck,landmark/Observation Deck/1.jpg,2,2,3
+Observation Deck,landmark/Observation Deck/3.jpg,3,1,0
+Ocheuteal Beach-Otres Beach,landmark/Ocheuteal Beach-Otres Beach/1.jpg,1,2,1
+Ocheuteal Beach-Otres Beach,landmark/Ocheuteal Beach-Otres Beach/2.jpg,2,3,2
+Ocheuteal Beach-Otres Beach,landmark/Ocheuteal Beach-Otres Beach/3.jpg,2,0,3
+Oinoscent,landmark/Oinoscent/1.jpg,2,1,3
+Oinoscent,landmark/Oinoscent/2.jpg,1,3,0
+Oinoscent,landmark/Oinoscent/3.jpg,1,3,0
+Once Upon a Time Biblioteka,landmark/Once Upon a Time Biblioteka/1.jpg,1,1,1
+Once Upon a Time Biblioteka,landmark/Once Upon a Time Biblioteka/2.jpg,2,3,2
+Once Upon a Time Biblioteka,landmark/Once Upon a Time Biblioteka/3.jpg,3,0,2
+Onda Restaurant,landmark/Onda Restaurant/1.jpg,1,3,0
+Onda Restaurant,landmark/Onda Restaurant/2.jpg,1,1,1
+Orloj,landmark/Orloj/2.jpg,3,1,0
+Paradisbukta,landmark/Paradisbukta/1.jpg,3,3,3
+Paradisbukta,landmark/Paradisbukta/2.jpg,3,0,2
+Paradisbukta,landmark/Paradisbukta/3.jpg,1,0,1
+Parc Jarry,landmark/Parc Jarry/1.jpg,2,3,2
+Parc Jarry,landmark/Parc Jarry/2.jpg,2,2,3
+Parc Jarry,landmark/Parc Jarry/3.jpg,2,1,3
+Park Way,landmark/Park Way/1.jpg,1,1,1
+Park Way,landmark/Park Way/2.jpg,1,3,0
+Park Way,landmark/Park Way/3.jpg,2,0,0
+Parque Ingles,landmark/Parque Ingles/1.jpg,2,0,3
+Parque Ingles,landmark/Parque Ingles/2.jpg,1,3,0
+Parque Ingles,landmark/Parque Ingles/3.jpg,1,2,1
+Parque Las Cuadras,landmark/Parque Las Cuadras/1.jpg,3,2,0
+Parque Las Cuadras,landmark/Parque Las Cuadras/2.jpg,1,1,1
+Parque Las Cuadras,landmark/Parque Las Cuadras/3.jpg,1,1,1
+Parque Metropolitano Simon Bolivar,landmark/Parque Metropolitano Simon Bolivar/1.jpg,2,1,3
+Parque Metropolitano Simon Bolivar,landmark/Parque Metropolitano Simon Bolivar/2.jpg,2,1,3
+Parque Metropolitano Simon Bolivar,landmark/Parque Metropolitano Simon Bolivar/3.jpg,0,2,2
+Parque Santa Ana,landmark/Parque Santa Ana/2.jpg,2,1,3
+Parque Santa Ana,landmark/Parque Santa Ana/3.jpg,2,1,3
+Pejaten Village,landmark/Pejaten Village/1.jpg,1,2,1
+Pejaten Village,landmark/Pejaten Village/2.jpg,1,2,1
+Phap Lam Pagoda,landmark/Phap Lam Pagoda/1.jpg,0,3,1
+Pintxoteria Los Cojones,landmark/Pintxoteria Los Cojones/2.jpg,1,0,1
+Pista Atletica Los Chasquis,landmark/Pista Atletica Los Chasquis/1.jpg,1,0,1
+Pista Atletica Los Chasquis,landmark/Pista Atletica Los Chasquis/2.jpg,3,1,0
+Pista Atletica Los Chasquis,landmark/Pista Atletica Los Chasquis/3.jpg,2,0,3
+Place Bockstael,landmark/Place Bockstael/1.jpg,3,0,2
+Place Bockstael,landmark/Place Bockstael/2.jpg,3,1,0
+Place Bockstael,landmark/Place Bockstael/3.jpg,1,0,1
+Place De L'etoile,landmark/Place De L'etoile/1.jpg,1,0,1
+Place De L'etoile,landmark/Place De L'etoile/2.jpg,2,2,3
+Place De L'etoile,landmark/Place De L'etoile/3.jpg,2,1,3
+Place de la Cathedrale,landmark/Place de la Cathedrale/1.jpg,2,3,2
+Place de la Cathedrale,landmark/Place de la Cathedrale/2.jpg,1,3,0
+Place de la Cathedrale,landmark/Place de la Cathedrale/3.jpg,3,0,2
+Place Du Parc,landmark/Place Du Parc/1.jpg,2,0,2
+Place Du Parc,landmark/Place Du Parc/2.jpg,3,1,2
+Place Du Parc,landmark/Place Du Parc/3.jpg,0,1,2
+Place du Theatre,landmark/Place du Theatre/1.jpg,1,0,1
+Place du Theatre,landmark/Place du Theatre/3.jpg,1,2,1
+Place l'Europe,landmark/Place l'Europe/1.jpg,1,2,1
+Place l'Europe,landmark/Place l'Europe/2.jpg,1,2,1
+Playa El Medano,landmark/Playa El Medano/1.jpg,1,2,1
+Playa El Medano,landmark/Playa El Medano/2.jpg,1,1,1
+Playa El Medano,landmark/Playa El Medano/3.jpg,1,2,1
+Plaza de Armas San Sebastian,landmark/Plaza de Armas San Sebastian/1.jpg,1,2,1
+Plaza de Armas San Sebastian,landmark/Plaza de Armas San Sebastian/2.jpg,2,0,0
+Plaza de Armas San Sebastian,landmark/Plaza de Armas San Sebastian/3.jpg,3,0,2
+Plaza de Santo Domingo,landmark/Plaza de Santo Domingo/1.jpg,1,2,1
+Plaza de Santo Domingo,landmark/Plaza de Santo Domingo/2.jpg,2,3,2
+Plaza de Santo Domingo,landmark/Plaza de Santo Domingo/3.jpg,0,1,2
+Plaza Limacpampa Grande,landmark/Plaza Limacpampa Grande/1.jpg,3,1,2
+Plaza Limacpampa Grande,landmark/Plaza Limacpampa Grande/2.jpg,1,2,1
+Plaza Limacpampa Grande,landmark/Plaza Limacpampa Grande/3.jpg,2,3,2
+Plazoleta Espinar,landmark/Plazoleta Espinar/1.jpg,2,1,3
+Plazoleta Espinar,landmark/Plazoleta Espinar/2.jpg,3,1,0
+Plazoleta Espinar,landmark/Plazoleta Espinar/3.jpg,3,2,0
+Pluit Village XXI,landmark/Pluit Village XXI/1.jpg,3,2,0
+Pluit Village XXI,landmark/Pluit Village XXI/3.jpg,1,0,1
+Puerto Paraiso,landmark/Puerto Paraiso/1.jpg,3,3,3
+Puerto Paraiso,landmark/Puerto Paraiso/2.jpg,3,2,0
+Puerto Paraiso,landmark/Puerto Paraiso/3.jpg,0,2,2
+Recreation Beach,landmark/Recreation Beach/1.jpg,3,2,0
+Recreation Beach,landmark/Recreation Beach/2.jpg,3,1,2
+Recreation Beach,landmark/Recreation Beach/3.jpg,1,1,1
+Redondel Jose Marti,landmark/Redondel Jose Marti/1.jpg,3,3,3
+Redondel Jose Marti,landmark/Redondel Jose Marti/2.jpg,1,0,1
+Regency Theatre,landmark/Regency Theatre/2.jpg,3,2,0
+Residenzschloss,landmark/Residenzschloss/2.jpg,3,3,3
+Residenzschloss,landmark/Residenzschloss/3.jpg,3,1,2
+Restaurant Yungay Viejo,landmark/Restaurant Yungay Viejo/1.jpg,3,1,0
+Restaurant Yungay Viejo,landmark/Restaurant Yungay Viejo/2.jpg,0,2,2
+Restaurant Yungay Viejo,landmark/Restaurant Yungay Viejo/3.jpg,2,3,2
+Rovinj Harbor,landmark/Rovinj Harbor/1.jpg,1,3,0
+Rovinj Harbor,landmark/Rovinj Harbor/2.jpg,2,3,2
+Rovinj Harbor,landmark/Rovinj Harbor/3.jpg,3,1,0
+Sea Horse,landmark/Sea Horse/3.jpg,2,1,3
+Secret Lake,landmark/Secret Lake/1.jpg,3,2,0
+Sindicato,landmark/Sindicato/2.jpg,1,2,3
+Sint-Baafsplein,landmark/Sint-Baafsplein/1.jpg,0,3,1
+Sint-Baafsplein,landmark/Sint-Baafsplein/2.jpg,3,1,0
+Sint-Baafsplein,landmark/Sint-Baafsplein/3.jpg,0,2,2
+Site Oud Sint-Jan,landmark/Site Oud Sint-Jan/1.jpg,2,0,3
+Site Oud Sint-Jan,landmark/Site Oud Sint-Jan/3.jpg,1,1,1
+Skatepark Hollerich,landmark/Skatepark Hollerich/2.jpg,1,0,1
+Skatepark Hollerich,landmark/Skatepark Hollerich/3.jpg,3,1,0
+Soho,landmark/Soho/1.jpg,1,0,1
+Soho,landmark/Soho/2.jpg,3,3,3
+Soho,landmark/Soho/3.jpg,1,0,1
+Sol e Pesca,landmark/Sol e Pesca/2.jpg,3,0,2
+Sol e Pesca,landmark/Sol e Pesca/3.jpg,1,1,1
+Starling Farm Kampot Pepper,landmark/Starling Farm Kampot Pepper/2.jpg,1,1,1
+Strandslag 12,landmark/Strandslag 12/1.jpg,1,1,1
+Strandslag 12,landmark/Strandslag 12/2.jpg,1,0,1
+Strandslag 12,landmark/Strandslag 12/3.jpg,2,0,3
+Stunning View,landmark/Stunning View/1.jpg,1,2,1
+Stunning View,landmark/Stunning View/2.jpg,2,1,3
+Stunning View,landmark/Stunning View/3.jpg,1,0,1
+StureCompagniet,landmark/StureCompagniet/1.jpg,1,2,1
+StureCompagniet,landmark/StureCompagniet/2.jpg,1,2,1
+StureCompagniet,landmark/StureCompagniet/3.jpg,1,3,0
+Sua Academia,landmark/Sua Academia/2.jpg,1,3,0
+Sua Academia,landmark/Sua Academia/3.jpg,1,1,1
+Suikerrui,landmark/Suikerrui/1.jpg,3,0,2
+Suikerrui,landmark/Suikerrui/2.jpg,3,0,2
+Suikerrui,landmark/Suikerrui/3.jpg,1,2,1
+Sunset Park,landmark/Sunset Park/1.jpg,1,2,1
+Sunset Park,landmark/Sunset Park/2.jpg,1,3,0
+Sunset Park,landmark/Sunset Park/3.jpg,1,3,0
+Sunter Mall,landmark/Sunter Mall/1.jpg,1,2,1
+Sunter Mall,landmark/Sunter Mall/3.jpg,0,3,1
+Sureyya Opera House,landmark/Sureyya Opera House/1.jpg,0,3,1
+Sureyya Opera House,landmark/Sureyya Opera House/2.jpg,0,3,1
+Suryauday Haveli Shivala Ghat,landmark/Suryauday Haveli Shivala Ghat/1.jpg,1,1,1
+Suryauday Haveli Shivala Ghat,landmark/Suryauday Haveli Shivala Ghat/2.jpg,1,3,0
+Suryauday Haveli Shivala Ghat,landmark/Suryauday Haveli Shivala Ghat/3.jpg,1,0,1
+Sushibar + Wine,landmark/Sushibar + Wine/1.jpg,3,0,2
+Sushibar + Wine,landmark/Sushibar + Wine/2.jpg,3,0,2
+Swimming Pool @ Sheraton Maldives,landmark/Swimming Pool @ Sheraton Maldives/2.jpg,0,1,2
+Sæmundur i Sparifotunum,landmark/Sæmundur i Sparifotunum/1.jpg,1,2,1
+Sæmundur i Sparifotunum,landmark/Sæmundur i Sparifotunum/2.jpg,1,0,1
+Sæmundur i Sparifotunum,landmark/Sæmundur i Sparifotunum/3.jpg,3,3,3
+Teatro Mayor Julio Mario Santo Domingo,landmark/Teatro Mayor Julio Mario Santo Domingo/2.jpg,2,2,3
+Tennis Spora,landmark/Tennis Spora/1.jpg,2,0,3
+Terra,landmark/Terra/2.jpg,3,2,0
+Terrapin Point,landmark/Terrapin Point/1.jpg,1,1,1
+Terrapin Point,landmark/Terrapin Point/2.jpg,1,3,0
+Terrapin Point,landmark/Terrapin Point/3.jpg,1,2,1
+The Circus,landmark/The Circus/1.jpg,1,0,1
+The Circus,landmark/The Circus/2.jpg,3,2,0
+The Circus,landmark/The Circus/3.jpg,1,0,1
+The Duke,landmark/The Duke/1.jpg,3,2,0
+The Duke,landmark/The Duke/3.jpg,3,2,0
+The Famine Memorial,landmark/The Famine Memorial/1.jpg,2,1,3
+The Famine Memorial,landmark/The Famine Memorial/2.jpg,1,0,1
+The Led Zephyr,landmark/The Led Zephyr/2.jpg,0,2,2
+Tinguely-Brunnen,landmark/Tinguely-Brunnen/1.jpg,3,1,0
+Tinguely-Brunnen,landmark/Tinguely-Brunnen/2.jpg,3,1,0
+Top One Academia,landmark/Top One Academia/2.jpg,1,0,1
+Umbrella,landmark/Umbrella/1.jpg,1,3,0
+Umbrella,landmark/Umbrella/2.jpg,2,0,3
+Umbrella,landmark/Umbrella/3.jpg,0,2,2
+Vinpearl Cable Car,landmark/Vinpearl Cable Car/1.jpg,3,1,0
+Vinpearl Cable Car,landmark/Vinpearl Cable Car/2.jpg,3,0,2
+Vinpearl Cable Car,landmark/Vinpearl Cable Car/3.jpg,2,2,3
+Vyhlidka Petra Velikeho,landmark/Vyhlidka Petra Velikeho/1.jpg,2,2,3
+Vyhlidka Petra Velikeho,landmark/Vyhlidka Petra Velikeho/2.jpg,2,1,3
+Vyhlidka Petra Velikeho,landmark/Vyhlidka Petra Velikeho/3.jpg,2,1,3
+Whirlpool Rapids,landmark/Whirlpool Rapids/1.jpg,2,0,3
+Whirlpool Rapids,landmark/Whirlpool Rapids/2.jpg,1,2,1
+Yavuz Sultan Selim Cami,landmark/Yavuz Sultan Selim Cami/1.jpg,1,3,0
+Yavuz Sultan Selim Cami,landmark/Yavuz Sultan Selim Cami/2.jpg,1,3,0
+Ye Old Abbey Tavern,landmark/Ye Old Abbey Tavern/1.jpg,2,1,3
+Zona VIP - K Urban Beach,landmark/Zona VIP - K Urban Beach/2.jpg,1,2,1
+Zona VIP - K Urban Beach,landmark/Zona VIP - K Urban Beach/3.jpg,1,2,1
+Zuidpark _ Koning Albertpark,landmark/Zuidpark _ Koning Albertpark/1.jpg,3,2,0
+Zuidpark _ Koning Albertpark,landmark/Zuidpark _ Koning Albertpark/3.jpg,3,2,0
+Государственный Кремлёвский дворец,landmark/Государственный Кремлёвский дворец/1.jpg,1,1,1
+Государственный Кремлёвский дворец,landmark/Государственный Кремлёвский дворец/2.jpg,1,1,1
+Государственный Кремлёвский дворец,landmark/Государственный Кремлёвский дворец/3.jpg,1,0,1
+Зала _Универсиада_ (Universiada Hall),landmark/Зала _Универсиада_ (Universiada Hall)/2.jpg,3,3,3
+Измайловский кремль,landmark/Измайловский кремль/1.jpg,0,3,1
+Измайловский кремль,landmark/Измайловский кремль/2.jpg,1,1,1
+Измайловский кремль,landmark/Измайловский кремль/3.jpg,0,2,2
+Лубянская площадь,landmark/Лубянская площадь/1.jpg,3,1,0
+Лубянская площадь,landmark/Лубянская площадь/2.jpg,1,0,1
+Лубянская площадь,landmark/Лубянская площадь/3.jpg,2,0,3
+Мавзолей В. И. Ленина,landmark/Мавзолей В. И. Ленина/1.jpg,1,0,1
+Мавзолей В. И. Ленина,landmark/Мавзолей В. И. Ленина/2.jpg,2,3,2
+Мавзолей В. И. Ленина,landmark/Мавзолей В. И. Ленина/3.jpg,2,0,0
+Манежная площадь,landmark/Манежная площадь/1.jpg,3,2,0
+Манежная площадь,landmark/Манежная площадь/2.jpg,2,3,2
+Манежная площадь,landmark/Манежная площадь/3.jpg,1,1,1
+Площадь Революции,landmark/Площадь Революции/1.jpg,1,3,0
+Площадь Революции,landmark/Площадь Революции/2.jpg,2,1,3
+Площадь Революции,landmark/Площадь Революции/3.jpg,1,0,1
+Площадь у м. Третьяковская,landmark/Площадь у м. Третьяковская/1.jpg,2,1,3
+Площадь у м. Третьяковская,landmark/Площадь у м. Третьяковская/2.jpg,1,3,0
+Площадь у м. Третьяковская,landmark/Площадь у м. Третьяковская/3.jpg,1,2,1
+Спортна София,landmark/Спортна София/1.jpg,1,2,1
+Спортна София,landmark/Спортна София/2.jpg,1,2,1
+Спортна София,landmark/Спортна София/3.jpg,1,3,0
+Стадион Раковски (Rakovski Stadium),landmark/Стадион Раковски (Rakovski Stadium)/1.jpg,2,1,3
+Стадион Раковски (Rakovski Stadium),landmark/Стадион Раковски (Rakovski Stadium)/2.jpg,1,0,1
+Стадион Раковски (Rakovski Stadium),landmark/Стадион Раковски (Rakovski Stadium)/3.jpg,0,1,2
+Тверская площадь,landmark/Тверская площадь/1.jpg,1,0,1
+Тверская площадь,landmark/Тверская площадь/2.jpg,0,2,2
+Тверская площадь,landmark/Тверская площадь/3.jpg,1,3,0
+Триумфальная площадь,landmark/Триумфальная площадь/1.jpg,1,3,0
+Триумфальная площадь,landmark/Триумфальная площадь/2.jpg,3,0,2
+Триумфальная площадь,landmark/Триумфальная площадь/3.jpg,3,0,2
+공묘와 국자감,landmark/공묘와 국자감/1.jpg,1,3,0
+구 식물원,landmark/구 식물원/1.jpg,2,1,3
+구 식물원,landmark/구 식물원/2.jpg,2,0,3
+국가대극원,landmark/국가대극원/1.jpg,1,1,1
+국가대극원,landmark/국가대극원/2.jpg,2,0,3
+국가도서관,landmark/국가도서관/1.jpg,3,2,0
+국가도서관,landmark/국가도서관/2.jpg,2,2,3
+국가도서관,landmark/국가도서관/3.jpg,1,2,1
+긴카쿠지(은각사),landmark/긴카쿠지(은각사)/1.jpg,3,3,3
+긴카쿠지(은각사),landmark/긴카쿠지(은각사)/2.jpg,1,1,1
+긴카쿠지(은각사),landmark/긴카쿠지(은각사)/3.jpg,1,0,1
+까사 깔베뜨,landmark/까사 깔베뜨/1.jpg,2,3,2
+까사 깔베뜨,landmark/까사 깔베뜨/2.jpg,1,3,0
+나디스 재즈클럽,landmark/나디스 재즈클럽/1.jpg,1,2,1
+나디스 재즈클럽,landmark/나디스 재즈클럽/2.jpg,2,2,3
+나바스 거리,landmark/나바스 거리/1.jpg,1,3,0
+나바스 거리,landmark/나바스 거리/2.jpg,0,0,0
+난바 파크스,landmark/난바 파크스/1.jpg,1,1,1
+난바 파크스,landmark/난바 파크스/2.jpg,3,1,0
+난바 파크스,landmark/난바 파크스/3.jpg,3,2,0
+노부 인터콘티넨탈,landmark/노부 인터콘티넨탈/1.jpg,1,3,0
+노부 인터콘티넨탈,landmark/노부 인터콘티넨탈/2.jpg,1,2,1
+노이어 마르크트,landmark/노이어 마르크트/1.jpg,3,0,2
+누 이터리,landmark/누 이터리/1.jpg,3,0,2
+누 이터리,landmark/누 이터리/2.jpg,3,2,0
+누 이터리,landmark/누 이터리/3.jpg,0,2,2
+니넨자카,landmark/니넨자카/1.jpg,2,2,3
+니넨자카,landmark/니넨자카/2.jpg,0,3,1
+니넨자카,landmark/니넨자카/3.jpg,2,0,3
+더 레이크(센트럴 파크),landmark/더 레이크(센트럴 파크)/1.jpg,2,3,2
+더 레이크(센트럴 파크),landmark/더 레이크(센트럴 파크)/2.jpg,3,1,2
+더 무스 & 루 레스토랑,landmark/더 무스 & 루 레스토랑/1.jpg,2,1,3
+더 무스 & 루 레스토랑,landmark/더 무스 & 루 레스토랑/2.jpg,2,1,3
+더 울프하운드 아이리쉬 펍,landmark/더 울프하운드 아이리쉬 펍/1.jpg,2,2,3
+데보드 신전,landmark/데보드 신전/1.jpg,1,2,1
+데보드 신전,landmark/데보드 신전/2.jpg,2,0,3
+덴포잔 대관람차,landmark/덴포잔 대관람차/1.jpg,3,3,3
+덴포잔 대관람차,landmark/덴포잔 대관람차/2.jpg,3,3,3
+동해대학,landmark/동해대학/1.jpg,2,3,2
+동해대학,landmark/동해대학/2.jpg,1,2,1
+동해대학,landmark/동해대학/3.jpg,1,0,1
+두오모,landmark/두오모/1.jpg,2,3,2
+두오모,landmark/두오모/2.jpg,3,1,0
+디지,landmark/디지/1.jpg,2,0,3
+디지,landmark/디지/2.jpg,3,1,0
+롬바드 스트리트,landmark/롬바드 스트리트/1.jpg,3,2,0
+롬바드 스트리트,landmark/롬바드 스트리트/2.jpg,1,2,1
+롬바드 스트리트,landmark/롬바드 스트리트/3.jpg,1,0,1
+루소의 아틀리에,landmark/루소의 아틀리에/1.jpg,3,1,0
+루소의 아틀리에,landmark/루소의 아틀리에/2.jpg,0,1,2
+리젠트 극장,landmark/리젠트 극장/1.jpg,0,3,1
+마리아 루이사 공원,landmark/마리아 루이사 공원/1.jpg,2,1,3
+마리아 루이사 공원,landmark/마리아 루이사 공원/2.jpg,0,2,2
+마티니,landmark/마티니/1.jpg,2,1,3
+메다 스파,landmark/메다 스파/1.jpg,1,0,1
+메다 스파,landmark/메다 스파/2.jpg,1,2,1
+메실라우 리조트,landmark/메실라우 리조트/1.jpg,1,3,0
+모이스,landmark/모이스/1.jpg,3,3,3
+뮤즈,landmark/뮤즈/1.jpg,0,3,1
+뮤즈,landmark/뮤즈/2.jpg,1,3,0
+미니아투르크,landmark/미니아투르크/1.jpg,2,3,2
+미니아투르크,landmark/미니아투르크/2.jpg,1,0,1
+밀라노 중앙역,landmark/밀라노 중앙역/1.jpg,3,2,0
+밀라노 중앙역,landmark/밀라노 중앙역/2.jpg,1,0,1
+바르비종,landmark/바르비종/1.jpg,2,0,3
+바르비종,landmark/바르비종/2.jpg,0,2,2
+바티니,landmark/바티니/1.jpg,3,1,0
+바티니,landmark/바티니/3.jpg,1,1,1
+뱀부바,landmark/뱀부바/1.jpg,1,3,0
+뱀부바,landmark/뱀부바/2.jpg,3,3,3
+베르나베우 스타디움,landmark/베르나베우 스타디움/1.jpg,3,2,0
+베르나베우 스타디움,landmark/베르나베우 스타디움/2.jpg,3,3,3
+베르지,landmark/베르지/1.jpg,1,2,1
+베르지,landmark/베르지/2.jpg,1,0,1
+베이레르베이 궁전,landmark/베이레르베이 궁전/1.jpg,2,0,0
+보트하우스 앤 프렐류드,landmark/보트하우스 앤 프렐류드/1.jpg,1,3,0
+보트하우스 앤 프렐류드,landmark/보트하우스 앤 프렐류드/2.jpg,2,2,3
+보트하우스 앤 프렐류드,landmark/보트하우스 앤 프렐류드/3.jpg,2,0,3
+붉은 시청사,landmark/붉은 시청사/1.jpg,2,1,3
+붉은 시청사,landmark/붉은 시청사/2.jpg,2,3,2
+뷰지스 홍콩,landmark/뷰지스 홍콩/1.jpg,2,1,3
+뷰티 엠포리엄,landmark/뷰티 엠포리엄/1.jpg,1,1,1
+뷰티 엠포리엄,landmark/뷰티 엠포리엄/2.jpg,0,2,2
+브라운 슈가(실롬 점),landmark/브라운 슈가(실롬 점)/1.jpg,1,0,1
+브루클린 다리 공원,landmark/브루클린 다리 공원/1.jpg,1,2,1
+브루클린 다리 공원,landmark/브루클린 다리 공원/2.jpg,2,0,3
+블리스,landmark/블리스/2.jpg,2,1,3
+비아 페라타,landmark/비아 페라타/1.jpg,2,1,3
+비아 페라타,landmark/비아 페라타/2.jpg,1,2,1
+빠뚜타패,landmark/빠뚜타패/1.jpg,2,0,3
+삭바얀 피크,landmark/삭바얀 피크/1.jpg,2,0,3
+산 마르코 광장,landmark/산 마르코 광장/1.jpg,1,1,1
+산 프란체스코 성당,landmark/산 프란체스코 성당/1.jpg,1,2,1
+산타 마르게리따 광장,landmark/산타 마르게리따 광장/1.jpg,1,0,1
+산타 마르게리따 광장,landmark/산타 마르게리따 광장/2.jpg,1,3,0
+산타 마리아 델 포폴로 성당,landmark/산타 마리아 델 포폴로 성당/1.jpg,1,3,0
+산타 마리아 델 포폴로 성당,landmark/산타 마리아 델 포폴로 성당/3.jpg,1,0,1
+산타루치아 항구,landmark/산타루치아 항구/1.jpg,1,0,1
+산토 토마스 대학,landmark/산토 토마스 대학/1.jpg,1,2,1
+삼수당,landmark/삼수당/1.jpg,3,3,3
+삼수당,landmark/삼수당/2.jpg,1,2,1
+성 세르기우스와 바쿠스 교회,landmark/성 세르기우스와 바쿠스 교회/2.jpg,1,2,1
+세인트 패트릭 대성당,landmark/세인트 패트릭 대성당/1.jpg,1,2,1
+세인트 패트릭 대성당,landmark/세인트 패트릭 대성당/2.jpg,1,2,1
+센테니얼 파크,landmark/센테니얼 파크/1.jpg,0,2,2
+소니 센터,landmark/소니 센터/1.jpg,2,2,3
+소니 센터,landmark/소니 센터/2.jpg,1,1,1
+솔스티스 선 라운지,landmark/솔스티스 선 라운지/1.jpg,1,3,0
+술탄 압둘 사마드 빌딩,landmark/술탄 압둘 사마드 빌딩/1.jpg,1,0,1
+술탄 압둘 사마드 빌딩,landmark/술탄 압둘 사마드 빌딩/2.jpg,2,3,2
+슈투바이 빙하,landmark/슈투바이 빙하/1.jpg,1,0,1
+슈투바이 빙하,landmark/슈투바이 빙하/2.jpg,1,1,1
+슈투바이 빙하,landmark/슈투바이 빙하/3.jpg,2,0,3
+스카이다이브 엑스드림,landmark/스카이다이브 엑스드림/1.jpg,1,0,1
+스카이다이브 엑스드림,landmark/스카이다이브 엑스드림/2.jpg,1,3,0
+스카이다이브 엑스드림,landmark/스카이다이브 엑스드림/3.jpg,3,2,0
+스컬프쳐 스퀘어,landmark/스컬프쳐 스퀘어/1.jpg,3,2,0
+스컬프쳐 스퀘어,landmark/스컬프쳐 스퀘어/2.jpg,1,2,1
+스키 360,landmark/스키 360/1.jpg,2,0,0
+스키 360,landmark/스키 360/2.jpg,1,1,1
+스키 360,landmark/스키 360/3.jpg,1,3,0
+승리의 광장,landmark/승리의 광장/1.jpg,1,0,1
+승리의 광장,landmark/승리의 광장/2.jpg,2,0,3
+시드니 페리,landmark/시드니 페리/1.jpg,0,3,1
+시사이드 모모치 해변공원,landmark/시사이드 모모치 해변공원/1.jpg,2,1,3
+시사이드 모모치 해변공원,landmark/시사이드 모모치 해변공원/2.jpg,1,3,0
+시사이드 모모치 해변공원,landmark/시사이드 모모치 해변공원/3.jpg,3,3,3
+싼깜팽 온천,landmark/싼깜팽 온천/1.jpg,0,2,2
+싼깜팽 온천,landmark/싼깜팽 온천/2.jpg,1,1,1
+싼깜팽 온천,landmark/싼깜팽 온천/3.jpg,2,2,3
+아우구스티너켈러,landmark/아우구스티너켈러/2.jpg,1,1,1
+아잠 교회,landmark/아잠 교회/1.jpg,3,2,0
+아잠 교회,landmark/아잠 교회/2.jpg,3,1,0
+아친 스트리트 모스크,landmark/아친 스트리트 모스크/1.jpg,2,0,0
+얍초이 하우스,landmark/얍초이 하우스/1.jpg,3,2,0
+오데옹 극장,landmark/오데옹 극장/1.jpg,1,1,1
+오데옹 극장,landmark/오데옹 극장/2.jpg,1,0,1
+오도구,landmark/오도구/1.jpg,1,0,1
+오푸스,landmark/오푸스/1.jpg,2,0,3
+올림피아 공원,landmark/올림피아 공원/1.jpg,1,3,0
+올림피아 공원,landmark/올림피아 공원/2.jpg,1,3,0
+왓 쑤언독,landmark/왓 쑤언독/2.jpg,2,2,3
+왕궁,landmark/왕궁/1.jpg,2,1,3
+왕궁,landmark/왕궁/2.jpg,2,0,3
+왕궁,landmark/왕궁/3.jpg,0,2,2
+위앙 꿈깜,landmark/위앙 꿈깜/2.jpg,3,3,3
+위앙 꿈깜,landmark/위앙 꿈깜/3.jpg,2,0,3
+윌리엄스타운,landmark/윌리엄스타운/1.jpg,3,1,0
+유니언 스퀘어,landmark/유니언 스퀘어/1.jpg,1,0,1
+유니언 스퀘어,landmark/유니언 스퀘어/2.jpg,2,2,3
+유니언 스퀘어,landmark/유니언 스퀘어/3.jpg,2,1,3
+유니온 스퀘어,landmark/유니온 스퀘어/1.jpg,1,0,1
+유니온 스퀘어,landmark/유니온 스퀘어/2.jpg,3,2,0
+유대교 회당,landmark/유대교 회당/1.jpg,1,0,1
+유대교 회당,landmark/유대교 회당/2.jpg,2,0,0
+인썸니아,landmark/인썸니아/1.jpg,1,2,1
+일중가상권,landmark/일중가상권/1.jpg,1,3,0
+일중가상권,landmark/일중가상권/2.jpg,3,1,0
+임비아 룩 아웃,landmark/임비아 룩 아웃/1.jpg,1,1,1
+재패니즈 빌리지,landmark/재패니즈 빌리지/1.jpg,3,0,2
+재패니즈 빌리지,landmark/재패니즈 빌리지/2.jpg,2,1,3
+전승 기념탑,landmark/전승 기념탑/1.jpg,2,1,3
+전승 기념탑,landmark/전승 기념탑/2.jpg,1,2,1
+젠다르멘 광장,landmark/젠다르멘 광장/1.jpg,2,1,3
+카사 데 캄포,landmark/카사 데 캄포/1.jpg,2,1,3
+카사 데 캄포,landmark/카사 데 캄포/2.jpg,2,2,3
+카이저 빌헬름 기념교회,landmark/카이저 빌헬름 기념교회/1.jpg,3,3,3
+카이저 빌헬름 기념교회,landmark/카이저 빌헬름 기념교회/2.jpg,1,3,0
+카지노 빈,landmark/카지노 빈/1.jpg,1,2,1
+칼차이우올리 거리,landmark/칼차이우올리 거리/1.jpg,1,0,1
+칼차이우올리 거리,landmark/칼차이우올리 거리/2.jpg,3,1,0
+코르소 스트리트,landmark/코르소 스트리트/1.jpg,0,3,1
+코메디 프랑세즈,landmark/코메디 프랑세즈/1.jpg,0,2,2
+코메디 프랑세즈,landmark/코메디 프랑세즈/2.jpg,1,2,1
+코메디 프랑세즈,landmark/코메디 프랑세즈/3.jpg,0,1,2
+쿡 선장의 집,landmark/쿡 선장의 집/1.jpg,0,0,0
+퀴리날레 궁전,landmark/퀴리날레 궁전/1.jpg,1,0,1
+킨카쿠지(금각사),landmark/킨카쿠지(금각사)/1.jpg,1,0,1
+킨카쿠지(금각사),landmark/킨카쿠지(금각사)/2.jpg,2,0,3
+킨카쿠지(금각사),landmark/킨카쿠지(금각사)/3.jpg,3,1,0
+킹 루드비히 비어 홀,landmark/킹 루드비히 비어 홀/1.jpg,3,2,0
+탑 오브 더 락,landmark/탑 오브 더 락/1.jpg,2,0,3
+탑 오브 더 락,landmark/탑 오브 더 락/2.jpg,2,2,3
+테로 광장,landmark/테로 광장/1.jpg,2,2,3
+테로 광장,landmark/테로 광장/2.jpg,1,2,1
+트라피스트 수도원,landmark/트라피스트 수도원/1.jpg,1,2,1
+트라피스트 수도원,landmark/트라피스트 수도원/2.jpg,2,0,3
+파노라마 1453,landmark/파노라마 1453/1.jpg,2,1,3
+파노라마 1453,landmark/파노라마 1453/2.jpg,1,0,1
+파리 동역,landmark/파리 동역/1.jpg,2,0,2
+파리 동역,landmark/파리 동역/2.jpg,3,1,0
+파티가스 델 께레르,landmark/파티가스 델 께레르/2.jpg,3,3,3
+파후랏,landmark/파후랏/1.jpg,2,1,3
+파후랏,landmark/파후랏/2.jpg,1,2,1
+파후랏,landmark/파후랏/3.jpg,2,3,2
+페예노르트 스타디움,landmark/페예노르트 스타디움/1.jpg,3,2,0
+페예노르트 스타디움,landmark/페예노르트 스타디움/2.jpg,2,0,3
+펠그림 파더 교회,landmark/펠그림 파더 교회/1.jpg,2,2,3
+펠그림 파더 교회,landmark/펠그림 파더 교회/2.jpg,1,2,1
+펠그림 파더 교회,landmark/펠그림 파더 교회/3.jpg,0,3,1
+포츠다머 플라츠,landmark/포츠다머 플라츠/1.jpg,0,3,1
+포츠다머 플라츠,landmark/포츠다머 플라츠/2.jpg,1,0,1
+푸롱 해변,landmark/푸롱 해변/1.jpg,1,2,1
+푸롱 해변,landmark/푸롱 해변/2.jpg,2,3,2
+푸르비에르 노틀담 성당,landmark/푸르비에르 노틀담 성당/1.jpg,1,3,0
+푸르비에르 노틀담 성당,landmark/푸르비에르 노틀담 성당/2.jpg,3,2,0
+푸르비에르 노틀담 성당,landmark/푸르비에르 노틀담 성당/3.jpg,1,3,0
+프란치스카너키르헤,landmark/프란치스카너키르헤/1.jpg,2,0,0
+프란치스카너키르헤,landmark/프란치스카너키르헤/2.jpg,1,1,1
+플래그스태프 정원,landmark/플래그스태프 정원/1.jpg,2,0,3
+피셔맨스 워프,landmark/피셔맨스 워프/1.jpg,3,1,0
+피셔맨스 워프,landmark/피셔맨스 워프/2.jpg,1,0,1
+하버 브리지 등반,landmark/하버 브리지 등반/1.jpg,3,1,0
+하이 라인,landmark/하이 라인/1.jpg,3,2,0
+하이 라인,landmark/하이 라인/2.jpg,1,2,1
+해골사원,landmark/해골사원/2.jpg,1,0,1
+호젠지요코초,landmark/호젠지요코초/1.jpg,2,1,3
+호젠지요코초,landmark/호젠지요코초/2.jpg,1,2,1
+호젠지요코초,landmark/호젠지요코초/3.jpg,1,2,1
+후시미 이나리 신사,landmark/후시미 이나리 신사/1.jpg,1,2,1
+후시미 이나리 신사,landmark/후시미 이나리 신사/2.jpg,1,2,1
+후시미 이나리 신사,landmark/후시미 이나리 신사/3.jpg,2,3,2
+후쿠오카 타워,landmark/후쿠오카 타워/1.jpg,1,3,0
+후쿠오카 타워,landmark/후쿠오카 타워/2.jpg,2,3,2
