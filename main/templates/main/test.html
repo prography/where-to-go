@@ -1,38 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href='../../static/css/materialize.min.css' />
-  <link rel="stylesheet" type="text/css" href= '../../static/css/examples.css' />
-  <link rel="stylesheet" type="text/css" href='../../static/css/main.css'>
-  <style>
-    .wrap-test{
-      /* 줄이고 싶은 사이즈를 정합니다. */
-      max-width: 400px;
-      max-height: 300px;
-      /* 잘린 부분을 숨기는 css 예요 */
-      overflow: hidden;
-    }
-    .wrap-test .wrap{
-      /* 하라고 되어있는데, 안해도 딱히 상관은 없어 보이네요. 그래도 혹시 모르니까 해둡시다. */
-      max-width: initial;
-    }
-    .wrap-test .wrap img{
-      /* 저는 사용한 이미지가 너무커서, 사이즈를 55%만 사용했어요! */
-      width: 55%;
-    }
+  <title>Where To Go</title>
 
-  </style>
+  <!-- 라이브러리 -->
+  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <!-- style  -->
+  <link rel="stylesheet" type="text/css" href='../../static/css/main.css' />
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
 </head>
 <body>
-  <div class="wrap-test">
-    <div class="wrap">
-      <img src="../../static/image/bg1.jpg" alt="test">
-    </div>
+    <video class="video-test" autoplay loop>
+        <source src='../../static/video/main2.mp4' type="video/mp4">
+    </video>  
+  <div class="col-container">
+      <div class="col-box">
+        <div class="col-1 wrap-test-2">
+          <img src='../../static/image/back_img1.jpg' alt="" />
+          <p class="white-typo">나라이름/명소이름</p>
+        </div>
+      </div>
+      <p class="white-typo">비슷한 여행지</p>
+      <div class="col-box">
+        <div class="col-3"> 
+          <div class="wrap-test-similar">
+          <img src='../../static/image/back_img1.jpg'/>
+          </div>
+          <p class="white-typo">나라이름/명소이름</p>
+        </div>
+        <div class="col-3"> 
+           <div class="wrap-test-similar">
+           <img src='../../static/image/back_img1.jpg'/>
+          </div>
+          <p class="white-typo">나라이름/명소이름</p>
+        </div>
+        <div class="col-3"> 
+          <div class="wrap-test-similar">
+          <img src='../../static/image/back_img1.jpg'/>
+          </div>
+          <p class="white-typo">나라이름/명소이름</p>
+        </div>
   </div>
-  
 </body>
 </html>
