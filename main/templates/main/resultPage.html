@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -37,9 +38,42 @@
         <source src='../../static/video/main2.mp4' type="video/mp4">
     </video>
 		<div class="text-position result-top">
-            <div class="col-box center">
-                <div class="col-1 wrap-test">
-                    <img src='../../static/image/bg1.jpg' alt="" /></div>
+            <div class="col-box center" >
+                    {% for img in result_img %}
+                      <div class="col-1 wrap-test">
+                      <img src='/static/{{img.url}}' class="result_img" id='{{ forloop.counter }}' alt="" />
+                      </div>
+                    {% endfor %}
+                    <script type="text/javascript">
+                      window.onload=()=>{
+                        var result_img=document.getElementsByClassName("result_img");
+                        // console.log(result_img);
+                        var idx=0;
+                        var len = result_img.length;
+                        console.log(len);
+                        for(i=0;i<len;i++){
+                          $(result_img[i]).hide();
+                          console.log($(result_img[i]));
+                        }
+                        $(result_img[idx]).show();
+                        var int=self.setInterval(function, 2000);
+
+                        while(true){
+                          window.setTimeout(()=>{
+
+                            for(i=0;i<len;i++){
+                              $(result_img[i]).hide();
+                              console.log($(result_img[i]));
+                            }
+                            $(result_img[idx]).show();
+                            idx = Math.floor(idx+1/len);
+
+                          }, 3000);
+                        }
+
+
+                      }
+                    </script>
                     <p class="white-typo"><b>당신을 위한 여행지는 " </b>
                     <b> {{ result_land.country }} 의 {{ result_land.landmark }} </b>
 					<b>" 입니다</b></p>
@@ -49,9 +83,9 @@
         <div class="text-position main-footer">
             <p>이런 여행지는 어떠세요?</p>
             <div class="col-box">
-                <div class="col-3 wrap-test-similar"><img src='../../static/image/bg1.jpg'/></div>
-                <div class="col-3 wrap-test-similar"><img src='../../static/image/bg1.jpg'/></div>
-                <div class="col-3 wrap-test-similar"><img src='../../static/image/bg1.jpg'/></div>
+              {% for img in similar_img %}
+                <div class="col-3 wrap-test-similar"><img src='/static/{{img.url}}'/></div>
+              {% endfor %}
             </div>
         </div></div>
 </body>
