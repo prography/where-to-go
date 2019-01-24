@@ -23,7 +23,9 @@
 </style>
 </head>
 <body>
+  {% if count != 2 %}
   {% include "main/loader.html" %}
+  {% endif %}
   <video class="video-test" autoplay loop>
     <source src='{% static "video/main2.mp4" %}' type="video/mp4">
 </video>
