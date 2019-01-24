@@ -1,38 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href='../../static/css/materialize.min.css' />
-  <link rel="stylesheet" type="text/css" href= '../../static/css/examples.css' />
-  <link rel="stylesheet" type="text/css" href='../../static/css/main.css'>
-  <style>
-    .wrap-test{
-      /* 줄이고 싶은 사이즈를 정합니다. */
-      max-width: 400px;
-      max-height: 300px;
-      /* 잘린 부분을 숨기는 css 예요 */
+  <title>Where To Go</title>
+
+  <!-- 라이브러리 -->
+  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <!-- style  -->
+  <link rel="stylesheet" type="text/css" href='../../static/css/main.css' />
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
+<style>
+  /*
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.grid{
+  display: flex;
+  width: 1080px;
+  height: 800px;
+  background-color: #f2f2f2;
+}
+.box {
+  flex-basis: 70px;
+  background-color: #eaeced;
+  margin-left: 10px;
+  margin-right: 10px;
+}*/
+
+/*-----col------*/
+.col-container{
+  width: 1080px;
+}
+@media screen and (max-width:800px) {
+  .col-3, .col-box,.col-box {
+    width:100%;
+  }
+}
+
+.col-box{
+  display: flex;
+  justify-content: center;
+}
+
+.col-1{
+  width: 1060px;
+}
+
+.col-3{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 33%;
+}
+@media (max-width:800px) {
+  .col-3{
+    width:100%;
+  }
+}
+
+/*-----etc------*/
+
+.h-300{
+  height: 300px;
+}
+.wrap-test{
+      max-width: 600px;
+      max-height: 400px;
       overflow: hidden;
     }
     .wrap-test .wrap{
-      /* 하라고 되어있는데, 안해도 딱히 상관은 없어 보이네요. 그래도 혹시 모르니까 해둡시다. */
       max-width: initial;
     }
-    .wrap-test .wrap img{
-      /* 저는 사용한 이미지가 너무커서, 사이즈를 55%만 사용했어요! */
-      width: 55%;
+    .wrap-test-similar{
+        max-width: 300px;
+        max-height: 200px;
+        overflow: hidden;
     }
 
   </style>
 </head>
 <body>
-  <div class="wrap-test">
-    <div class="wrap">
-      <img src="../../static/image/bg1.jpg" alt="test">
+    <video class="video-test" autoplay loop>
+        <source src='../../static/video/main2.mp4' type="video/mp4">
+    </video>  
+  <div class="text-position maintext">
+    <div class="col-container">
+      <div class="col-box">
+        <div class="col-1 wrap-test">
+          <img src='../../static/image/back_img1.jpg' alt="" />
+        </div>
+      </div>
+      <p class="white-typo">-------------------</p>
+      <div class="col-box">
+        <div class="col-3 wrap-test-similar">
+          <div style="height:300px">
+          <img src='../../static/image/back_img1.jpg'/>
+          <p>--------</p>
+          </div>
+        </div>
+        <div class="col-3 wrap-test-similar">
+          <img src='../../static/image/back_img1.jpg'/>
+          <p>--------</p>
+        </div>
+        <div class="col-3 wrap-test-similar">
+          <img src='../../static/image/back_img1.jpg'/>
+          <p>--------</p>
+        </div>
+      </div>
     </div>
   </div>
-  
 </body>
 </html>

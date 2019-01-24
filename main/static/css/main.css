@@ -112,5 +112,6 @@ b{
   margin-right:5px;
 }
 .result-top{
-  top: 1%;
+  top: 30%;
+  display: grid;
 }
