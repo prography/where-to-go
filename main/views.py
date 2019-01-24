@@ -18,10 +18,10 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=3).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': int(count) + 1,
-                                                    'images': [img1, img2, img3, img4]})
+                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     elif count == "2":
-        choice = Image.objects.filter(url=selected_img)
+        choice = Image.objects.get(url=selected_img)
         cluster1 = choice.cluster1
 
         img1 = Image.objects.filter(cluster1=cluster1, cluster2=0).order_by('?').first()
@@ -30,10 +30,10 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=3).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': int(count) + 1,
-                                                    'images': [img1, img2, img3, img4]})
+                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     elif count == "3":
-        choice = Image.objects.filter(url=selected_img)
+        choice = Image.objects.get(url=selected_img)
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
 
@@ -43,11 +43,11 @@ def select_page(request):
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': int(count) + 1,
-                                                    'images': [img1, img2, img3, img4]})
+                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     # resultPage
     elif count == "4":
-        choice = Image.objects.filter(url=selected_img)
+        choice = Image.objects.get(url=selected_img)
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
         cluster3 = choice.cluster3

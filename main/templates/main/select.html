@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href='{% static "css/main.css" %}' />
   <!-- font -->
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   <style>
     .wrap-test {
       max-width: 400px;
@@ -34,25 +34,25 @@
                 <h5 style="color:aliceblue">마음에 드는 여행지를 고르세요</h5></br></br>
                 <div class="col-box">
                     <div class="col-2">
-                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[0].url' %}">
-                            <div class="wrap-test"><img src="{% static 'images[0].url' %}" /></div></a>
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img1 }}">
+                            <div class="wrap-test"><img src="/static/{{ img1 }}" /></div></a>
                     </div>
                     <div class="col-2">
-                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[1].url' %}">
-                            <div class="wrap-test"><img src="{% static 'images[1].url' %}" /></div></a>
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img2 }}">
+                            <div class="wrap-test"><img src="/static/{{ img2 }}" /></div></a>
                     </div>
                 </div>
                 <div class="col-box">
                     <div class="col-2">
-                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[3].url' %}">
-                            <div class="wrap-test"><img src="{% static 'images[2].url' %}" /></div></a>
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img3 }}">
+                            <div class="wrap-test"><img src="/static/{{ img3 }}" /></div></a>
                     </div>
                     <div class="col-2">
-                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={% static 'images[4].url' %}">
-                            <div class="wrap-test"><img src="{% static 'images[3].url' %}" /></div></a>
+                        <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img4 }}">
+                            <div class="wrap-test"><img src="/static/{{ img4 }}" /></div></a>
                     </div>
                 </div>
      </div>
-  <script type="text/javascript" src="{ static js/materialize.min.js}"></script>
+  <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
 </body>
 </html>

@@ -1,0 +1,305 @@
+﻿id,landmark_name,country
+0,32.05,Russia
+1,Altes Tramdepot,Switzerland
+2,Ambasada,Poland
+3,Arsenał,Poland
+4,Atlantis Water Adventure,Indonesia
+5,Atze Peng,Denmark
+6,Baja Brewing Company,Mexico
+7,Baywalk Mall,Indonesia
+8,Beach,Bahamas
+9,Bistronomy,Colombia
+10,Bogota Beer Company,Colombia
+11,Boston,Iceland
+12,Bowe's Lounge,Ireland
+13,Brodarica beach,Croatia
+14,Buitenhof,Netherlands
+15,Carmen,Sweden
+16,Casa de la Gastronomia Peruana,Peru
+17,Casa E,Colombia
+18,Cava Baja,Spain
+19,Cerveceria Nacional,Argentina
+20,Cerveceria Truf,Chile
+21,Citra XXI,Indonesia
+22,City marine,Croatia
+23,Conservatorio Nacional de Musica - Sede Historica,Peru
+24,Cossab,Argentina
+25,De Golfslag Beachclub,Netherlands
+26,De Munt,Belgium
+27,De Scheldekaaien,Belgium
+28,Dhiffushi Bandharu,Maldives
+29,Dresdner Zwinger,Germany
+30,Drunk Sinatra,Greece
+31,Edible Canada at the Market,Canada
+32,Einstein-Haus,Switzerland
+33,El Squid Roe,Mexico
+34,Erasmus Corner,Portugal
+35,Fame,Bulgaria
+36,Filmstaden Soder,Sweden
+37,Galerie des Glaces,France
+38,Garden of the Groves,Bahamas
+39,Grand Canal Wharf,Ireland
+40,Grote Markt,Netherlands
+41,Haagse Bos,Netherlands
+42,Hacienda,Mexico
+43,Harischandra Ghat,India
+44,HD Sport Center,Brazil
+45,Hof van Liere,Belgium
+46,Hulhumale' BBQ Beach,Maldives
+47,Hulhumale' Main Road,Maldives
+48,Jardin Botanico,Mexico
+49,Jeleni skok,Czech
+50,Jernbanetorget,Norway
+51,Kalibata XXI,Indonesia
+52,Kavarna Tromostovje,Slovenian
+53,Kitsilano Public Pool,Canada
+54,Kornmarkt,Switzerland
+55,Kungsholmstorg,Sweden
+56,La Chilenita,Ecuador
+57,La Muse,Romania
+58,Largo do Carmo,Portugal
+59,Limelight,Jamaica
+60,Linko,Finland
+61,Lisboa Story Centre,Portugal
+62,Ljosanott,Iceland
+63,Lost Lagoon,Canada
+64,Louisiane Brewhouse,Vietnam
+65,Lovers Beach,Mexico
+66,Lucaya Beach,Bahamas
+67,Lux Golf Center,Luxembourg
+68,Maa Kandu,Maldives
+69,Maafannu Buru,Maldives
+70,Maafushi Jetty,Maldives
+71,Mal Artha Gading,Indonesia
+72,Mandala,Mexico
+73,Marex,Croatia
+74,Maxine,Finland
+75,Maybe Later,Cambodia
+76,Meir,Belgium
+77,MEO Arena,Portugal
+78,Miniature World,Canada
+79,MOJO,Romania
+80,Monticulo,Bolivia
+81,Monument Grand-Duchesse Charlotte,Luxembourg
+82,Mulini beach,Croatia
+83,Mulligan's,Ireland
+84,Musee des beaux-arts de Montreal (MBAM),Canada
+85,Museet for Samtidskunst,Norway
+86,Museo Inka,Peru
+87,Muzeum Karlovy Vary,Czech
+88,Mysore Palace,India
+89,Nenea Iancu,Romania
+90,Niagara Falls (American Side),Canada
+91,Nikki Beach,Mexico
+92,Noel,Greece
+93,Norrmalmstorg,Sweden
+94,Nybroplan,Sweden
+95,O'Connell's,Ireland
+96,Observation Deck,Canada
+97,Ocheuteal Beach-Otres Beach,Cambodia
+98,Oinoscent,Greece
+99,Once Upon a Time Biblioteka,Bulgaria
+100,Onda Restaurant,Norway
+101,Orloj,Czech
+102,Paradisbukta,Norway
+103,Parc Jarry,Canada
+104,Park Way,Colombia
+105,Parque Ingles,Ecuador
+106,Parque Las Cuadras,Ecuador
+107,Parque Metropolitano Simon Bolivar,Colombia
+108,Parque Santa Ana,Ecuador
+109,Pejaten Village,Indonesia
+110,Phap Lam Pagoda,Vietnam
+111,Pintxoteria Los Cojones,Finland
+112,Pista Atletica Los Chasquis,Ecuador
+113,Place Bockstael,Belgium
+114,Place De L'etoile,Luxembourg
+115,Place de la Cathedrale,France
+116,Place Du Parc,Luxembourg
+117,Place du Theatre,Luxembourg
+118,Place l'Europe,Luxembourg
+119,Playa El Medano,Mexico
+120,Plaza de Armas San Sebastian,Peru
+121,Plaza de Santo Domingo,Ecuador
+122,Plaza Limacpampa Grande,Peru
+123,Plazoleta Espinar,Peru
+124,Pluit Village XXI,Indonesia
+125,Puerto Paraiso,Mexico
+126,Recreation Beach,Maldives
+127,Redondel Jose Marti,Ecuador
+128,Regency Theatre,Bahamas
+129,Residenzschloss,Germany
+130,Restaurant Yungay Viejo,Chile
+131,Rovinj Harbor,Croatia
+132,Sea Horse,Finland
+133,Secret Lake,Cambodia
+134,Sindicato,Chile
+135,Sint-Baafsplein,Belgium
+136,Site Oud Sint-Jan,Belgium
+137,Skatepark Hollerich,Luxembourg
+138,Soho,Bulgaria
+139,Sol e Pesca,Portugal
+140,Starling Farm Kampot Pepper,Cambodia
+141,Strandslag 12,Netherlands
+142,Stunning View,Cambodia
+143,StureCompagniet,Sweden
+144,Sua Academia,Brazil
+145,Suikerrui,Belgium
+146,Sunset Park,Maldives
+147,Sunter Mall,Indonesia
+148,Sureyya Opera House,Turkey
+149,Suryauday Haveli Shivala Ghat,India
+150,Sushibar + Wine,Finland
+151,Swimming Pool @ Sheraton Maldives,Maldives
+152,Sæmundur i Sparifotunum,Iceland
+153,Teatro Mayor Julio Mario Santo Domingo,Colombia
+154,Tennis Spora,Luxembourg
+155,Terra,Bolivia
+156,Terrapin Point,Canada
+157,The Circus,Finland
+158,The Duke,Ireland
+159,The Famine Memorial,Ireland
+160,The Led Zephyr,Cambodia
+161,Tinguely-Brunnen,Switzerland
+162,Top One Academia,Brazil
+163,Umbrella,Bulgaria
+164,Vinpearl Cable Car,Vietnam
+165,Vyhlidka Petra Velikeho,Czech
+166,Whirlpool Rapids,Canada
+167,Yavuz Sultan Selim Cami,Turkey
+168,Ye Old Abbey Tavern,Ireland
+169,Zona VIP - K Urban Beach,Portugal
+170,Zuidpark _ Koning Albertpark,Belgium
+171,Государственный Кремлёвский дворец,Russia
+172,Зала _Универсиада_ (Universiada Hall),Bulgaria
+173,Измайловский кремль,Russia
+174,Лубянская площадь,Russia
+175,Мавзолей В. И. Ленина,Russia
+176,Манежная площадь,Russia
+177,Площадь Революции,Russia
+178,Площадь у м. Третьяковская,Russia
+179,Спортна София,Bulgaria
+180,Стадион Раковски (Rakovski Stadium),Bulgaria
+181,Тверская площадь,Russia
+182,Триумфальная площадь,Russia
+183,공묘와 국자감,China
+184,구 식물원,Switzerland
+185,국가대극원,China
+186,국가도서관,Taiwan
+187,긴카쿠지(은각사),Japan
+188,까사 깔베뜨,Spain
+189,나디스 재즈클럽,Turkey
+190,나바스 거리,Spain
+191,난바 파크스,Japan
+192,노부 인터콘티넨탈,Hongkong
+193,노이어 마르크트,Austria
+194,누 이터리,Vietnam
+195,니넨자카,Japan
+196,더 레이크(센트럴 파크),USA
+197,더 무스 & 루 레스토랑,Vietnam
+198,더 울프하운드 아이리쉬 펍,Vietnam
+199,데보드 신전,Spain
+200,덴포잔 대관람차,Japan
+201,동해대학,Taiwan
+202,두오모,Italy
+203,디지,Netherlands
+204,롬바드 스트리트,USA
+205,루소의 아틀리에,France
+206,리젠트 극장,Australia
+207,마리아 루이사 공원,Spain
+208,마티니,Philippines
+209,메다 스파,Philippines
+210,메실라우 리조트,Malaysia
+211,모이스,Malaysia
+212,뮤즈,China
+213,미니아투르크,Turkey
+214,밀라노 중앙역,Italy
+215,바르비종,France
+216,바티니,Singapore
+217,뱀부바,Thailand
+218,베르나베우 스타디움,Spain
+219,베르지,Singapore
+220,베이레르베이 궁전,Turkey
+221,보트하우스 앤 프렐류드,Singapore
+222,붉은 시청사,Germany
+223,뷰지스 홍콩,Hongkong
+224,뷰티 엠포리엄,Singapore
+225,브라운 슈가(실롬 점),Thailand
+226,브루클린 다리 공원,USA
+227,블리스,Taiwan
+228,비아 페라타,Switzerland
+229,빠뚜타패,Thailand
+230,삭바얀 피크,Philippines
+231,산 마르코 광장,Italy
+232,산 프란체스코 성당,Italy
+233,산타 마르게리따 광장,Italy
+234,산타 마리아 델 포폴로 성당,Italy
+235,산타루치아 항구,Italy
+236,산토 토마스 대학,Philippines
+237,삼수당,China
+238,성 세르기우스와 바쿠스 교회,Turkey
+239,세인트 패트릭 대성당,USA
+240,센테니얼 파크,Australia
+241,소니 센터,Germany
+242,솔스티스 선 라운지,Philippines
+243,술탄 압둘 사마드 빌딩,Malaysia
+244,슈투바이 빙하,Austria
+245,스카이다이브 엑스드림,Switzerland
+246,스컬프쳐 스퀘어,Singapore
+247,스키 360,Singapore
+248,승리의 광장,Spain
+249,시드니 페리,Australia
+250,시사이드 모모치 해변공원,Japan
+251,싼깜팽 온천,Thailand
+252,아우구스티너켈러,Germany
+253,아잠 교회,Germany
+254,아친 스트리트 모스크,Malaysia
+255,얍초이 하우스,Malaysia
+256,오데옹 극장,France
+257,오도구,China
+258,오푸스,Philippines
+259,올림피아 공원,Germany
+260,왓 쑤언독,Thailand
+261,왕궁,Austria
+262,위앙 꿈깜,Thailand
+263,윌리엄스타운,Australia
+264,유니언 스퀘어,USA
+265,유니온 스퀘어,USA
+266,유대교 회당,Poland
+267,인썸니아,Philippines
+268,일중가상권,Taiwan
+269,임비아 룩 아웃,Singapore
+270,재패니즈 빌리지,Malaysia
+271,전승 기념탑,Thailand
+272,젠다르멘 광장,Germany
+273,카사 데 캄포,Spain
+274,카이저 빌헬름 기념교회,Germany
+275,카지노 빈,Austria
+276,칼차이우올리 거리,Italy
+277,코르소 스트리트,Australia
+278,코메디 프랑세즈,France
+279,쿡 선장의 집,Australia
+280,퀴리날레 궁전,Italy
+281,킨카쿠지(금각사),Japan
+282,킹 루드비히 비어 홀,Hongkong
+283,탑 오브 더 락,USA
+284,테로 광장,France
+285,트라피스트 수도원,Hongkong
+286,파노라마 1453,Turkey
+287,파리 동역,France
+288,파티가스 델 께레르,Spain
+289,파후랏,Thailand
+290,페예노르트 스타디움,Netherlands
+291,펠그림 파더 교회,Netherlands
+292,포츠다머 플라츠,Germany
+293,푸롱 해변,Taiwan
+294,푸르비에르 노틀담 성당,France
+295,프란치스카너키르헤,Austria
+296,플래그스태프 정원,Australia
+297,피셔맨스 워프,USA
+298,하버 브리지 등반,Australia
+299,하이 라인,USA
+300,해골사원,Italy
+301,호젠지요코초,Japan
+302,후시미 이나리 신사,Japan
+303,후쿠오카 타워,Japan
