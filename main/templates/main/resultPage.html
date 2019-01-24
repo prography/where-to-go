@@ -1,111 +1,77 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Where To Go</title>
-    <link rel="stylesheet" type="text/css" href="../../static/public/css/fullpage.min.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/myStyle.css" />
-	<link rel="stylesheet" type="text/css" href="../../static/public/css/materialize.min.css" />
-	<style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Where To Go</title>
 
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-	/* Backgrounds will cover all the section
-	* --------------------------------------- */
-	.section{
-		background-size: cover;
-	}
-	.slide{
-		background-size: cover;
-	}
-
-	/* Defining each section background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url(../../static/public/image/travel.jpg);
-    }
-    
-    /*image box*/
-    #slide li{
-        display:none;
-        -webkit-display:block;
-    }
-    .col-container{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:100px;
-        width: 1080px;
-    }
-    .div{
-        display: block;
-    }
-    .col-box{
-        display: flex;
-        justify-content: center;
-    }
-    .col-1{
-        height: 400px;
-    }
-    
-</style>
+  <!-- 라이브러리 -->
+  <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
+  <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <!-- style  -->
+  <link rel="stylesheet" type="text/css" href='../../static/css/main.css' />
+  <!-- font -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
 </head>
 <body>
+    <video class="video-test" autoplay loop>
+        <source src='../../static/video/main2.mp4' type="video/mp4">
+    </video>
+		<div class="text-position result-top">
+            <div class="col-box center" >
+                    {% for img in result_img %}
+                      <div class="col-1 wrap-test">
+                      <img src='/static/{{img.url}}' class="result_img" id='{{ forloop.counter }}' alt="" />
+                      </div>
+                    {% endfor %}
+                    <script type="text/javascript">
+                      window.onload=()=>{
+                        var result_img=document.getElementsByClassName("result_img");
+                        // console.log(result_img);
+                        var idx=0;
+                        var len = result_img.length;
+                        console.log(len);
+                        for(i=0;i<len;i++){
+                          $(result_img[i]).hide();
+                          console.log($(result_img[i]));
+                        }
+                        $(result_img[idx]).show();
+                        var int=self.setInterval(function, 2000);
 
-<div id="fullpage">
-	<div class="section " id="section0">
-        <div class="col-container">
-            <div class="col-box">
-                <div class="col-1 style" id="slide" val="1" mx="3">
-                    <li id="img1"><img src="../../static/public/image/back_img1.jpg" alt=""/></li>
-                    <li id="img2"><img src="../../static/public/image/bg1.jpg" alt=""/></li>
-                    <li id="img3"><img src="../../static/public/image/travel.jpg" alt=""/></li>
-                <b><p>나라이름/명소이름</p></b>
-                </div>
-            </div>
-            <div class="col-box">
-                <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
-                <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
-                <div class="col-3 style"><img src="../../static/public/image/bg1.jpg"/></div>
+                        while(true){
+                          window.setTimeout(()=>{
+
+                            for(i=0;i<len;i++){
+                              $(result_img[i]).hide();
+                              console.log($(result_img[i]));
+                            }
+                            $(result_img[idx]).show();
+                            idx = Math.floor(idx+1/len);
+
+                          }, 3000);
+                        }
+
+
+                      }
+                    </script>
+                    <p class="white-typo"><b>당신을 위한 여행지는 " </b>
+                    <b> {{ result_land.country }} 의 {{ result_land.landmark }} </b>
+					<b>" 입니다</b></p>
+
             </div>
         </div>
-    </div>
-</div>
-<script type="text/javascript" src="../../static/public/js/fullpage.min.js"></script>
-<script type="text/javascript" src="../../static/public/js/materialize.min.js"></script>
-
-<script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-        verticalCentered: false
-    });
-</script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script> 
-<script type="text/javascript"> 
-    imgslide(); //페이지가 로딩될때 함수를 실행합니다
-    function imgslide(){
-    
-      $val = $("#slide").attr("val"); //현재 이미지 번호를 가져옵니다
-    
-      $mx = $("#slide").attr("mx"); //총 이미지 개수를 가져옵니다
-    
-        $("#img"+$val).hide(); //현재 이미지를 사라지게 합니다.
-    
-        if( $val == $mx ){ $val = 1; } //현재이미지가 마지막 번호라면 1번으로 되돌립니다.
-    
-        else{ $val++; } //마지막 번호가 아니라면 카운트를 증가시켜줍니다
-    
-        $("#img"+$val).fadeIn(500); //변경된 번호의 이미지영역을 나타나게 합니다.괄호 안에 숫자는 페이드인 되는 시간을 나타냅니다.
-    
-        $("#slide").attr('val',$val); //변경된 이미지영역의 번호를 부여합니다.
-    
-        setTimeout('imgslide()',3000); //1초 뒤에 다시 함수를 호출합니다.(숫자값 1000당 1초)
-    
-    }
-    
-    </script>
+        <div class="text-position main-footer">
+            <p>이런 여행지는 어떠세요?</p>
+            <div class="col-box">
+              {% for img in similar_img %}
+                <div class="col-3 wrap-test-similar"><img src='/static/{{img.url}}'/></div>
+              {% endfor %}
+            </div>
+        </div></div>
 </body>
 </html>

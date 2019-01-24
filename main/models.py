@@ -1,7 +1,7 @@
 from django.db import models
 
 class Landmark(models.Model):
-    landmark = models.CharField(max_length=50)
+    landmark = models.CharField(max_length=50, unique=True)
     country = models.CharField(max_length=20)
 
 
@@ -11,4 +11,3 @@ class Image(models.Model):
     cluster1 = models.IntegerField()
     cluster2 = models.IntegerField()
     cluster3 = models.IntegerField()
-
