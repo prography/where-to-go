@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -28,6 +29,7 @@
 </head>
 
 <body>
+  {% include "main/loader.html" %}
   <video class="video-test" autoplay loop>
     <source src='{% static "video/main2.mp4" %}' type="video/mp4">
 </video>

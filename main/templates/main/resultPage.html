@@ -18,18 +18,49 @@
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
 </head>
-<body>
+{% include "main/loader2.html" %}
+
+<body id="body">
+  <script type="text/javascript">
+    $('#body').hide();
+    setTimeout(()=>{
+      $('#body').show();
+    },1000);
+  </script>
     <video class="video-test" autoplay loop>
         <source src='../../static/video/main2.mp4' type="video/mp4">
     </video>
 		<div class="text-position result-top">
             <div class="col-box center" >
+                  <div class="col-1 wrap-test">
                     {% for img in result_img %}
-                      <div class="col-1 wrap-test">
                       <img src='/static/{{img.url}}' class="result_img" id='{{ forloop.counter }}' alt="" />
-                      </div>
                     {% endfor %}
-                    
+                  </div>
+
+                    <style media="screen">
+                      .wrap-test{
+                        text-align: center;
+                        width: 100vw;
+                        max-height: 500px;
+                      }
+                      .result_img{
+                        margin-top: auto;margin-bottom: auto;
+                        margin-left: auto; margin-right: auto;
+                        max-width: 800px;
+                        max-height: 400px;
+                        overflow: hidden;
+
+                      }
+                      .main-footer {
+                        position: absolute;
+                        top: 550px;
+                        overflow: hidden;
+
+                      }.col-3{
+                        max-height: 200px;
+                      }
+                    </style>
                     <script type="text/javascript">
                       window.onload=()=>{
                         var result_img=document.getElementsByClassName("result_img");
@@ -53,19 +84,21 @@
                             idx = idx-len;
                           }
                           console.log(idx);
-                        }, 2000);
+                        }, 5000);
 
 
                       }
                     </script>
-                    <p class="white-typo"><b>당신을 위한 여행지는</b>
-                    <b> "{{ result_land.country }} 의 {{ result_land.landmark }}" </b>
-					<b> 입니다</b></p>
 
+            </div>
+            <div class="">
+              <p class="white-typo"><b>당신을 위한 여행지는</b>
+              <b> "{{ result_land.country }} 의 {{ result_land.landmark }}" </b>
+              <b> 입니다</b></p>
             </div>
         </div>
         <div class="text-position main-footer">
-            <p>이런 여행지는 어떠세요?</p>
+            <p>이런 여행지는 어떠신가요?</p>
             <div class="col-box">
               {% for img in similar_img %}
                 <div class="col-3 wrap-test-similar"><img src='/static/{{img.url}}'/></div>
