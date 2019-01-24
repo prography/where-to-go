@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <div class="loader">
   <svg height="100%" width="100%" class="svg-wrap">
-    <circle class="circle"  r="100%" cx="50%" cy="50%" fill="#fff"/>
+    <circle class="circle" id="myCircle" r="100%" cx="50%" cy="50%" fill="#9966ff"/>
+    <!-- <image id="load_img" x="10%" y="10%" width="80%" height="80%"
+     xlink:href="http://127.0.0.1:8000/static/image/load.jpg" /> -->
   </svg>
 </div>
 
@@ -27,6 +29,17 @@
   transition-timing-function: cubic-bezier(.645,.045,.355,1);
 }
 .loader .svg-wrap,
+.loader .circle{
+  cx:50%;
+  cy:50%;
+  -webkit-transition-property:  all;
+  transition-property: all;
+}
+.loader #load_img{
+  transition-duration: 1s;
+  z-index: -1;
+}
+
 .loader .circle{
   -moz-transition-property: all;
   -o-transition-property: all;

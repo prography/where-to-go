@@ -22,7 +22,7 @@
 
 <body id="body">
   <script type="text/javascript">
-    $('#body').hide();
+    $('#body').children.not(".video-test").hide();
     setTimeout(()=>{
       $('#body').show();
     },1000);
@@ -104,6 +104,6 @@
                 <div class="col-3 wrap-test-similar"><img src='/static/{{img.url}}'/></div>
               {% endfor %}
             </div>
-        </div></div>
+        </div>
 </body>
 </html>
