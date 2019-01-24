@@ -18,6 +18,7 @@ body{
 
 p{
   margin: 0 !important;
+  text-align:center;
 }
 
 a{
@@ -104,14 +105,44 @@ b{
 /* ------------------------------------------------------- */
 /*resultPage.html*/
 .col-1{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  width:1060px;
 }
 .col-3{
+  width: 33%;
   margin-bottom: 10px;
-  margin-left:5px;
-  margin-right:5px;
+  margin-left:30px;
+  margin-right:30px;
 }
 .result-top{
   top: 30%;
   display: grid;
+}
+.col-container{
+  width: 1080px;
+  position : absolute;
+  top:5%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+@media screen and (max-width:800px) {
+  .col-3, .col-box,.col-box {
+    width:100%;
+  }
+}
+
+/*fix image size*/
+.wrap-test-2{
+  max-width: 800px;
+  max-height: 600px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.wrap-test .wrap-test-2 .wrap{
+  max-width: initial;
+}
+.wrap-test-similar{
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
 }
