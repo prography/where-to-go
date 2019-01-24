@@ -15,7 +15,7 @@ parser.add_argument('--hidden_dim', type=int, default=400, help='dimension of hi
 parser.add_argument('--output_dim', type=int, default=20, help='dimension of encoder output')
 
 # Training configurations
-parser.add_argument('--num_epochs', type=int, default=10, help='number of epochs')
+parser.add_argument('--num_epochs', type=int, default=150, help='number of epochs')
 parser.add_argument('--lr', type=float, default=1e-3, help='learning rate of optimizer')
 parser.add_argument('--weight_decay', type=float, default=1e-5, help='learning rate weight decay')
 parser.add_argument('--training_path', type=str, default='', help='to continue training')
