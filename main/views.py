@@ -39,7 +39,8 @@ def select_page(request):
         cluster2 = choice.cluster2
 
         third = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?')
-        img1 = third.first()
+
+        img1 = third[0]
         img2 = third[1]
         img3 = third[2]
         img4 = third[3]
