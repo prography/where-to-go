@@ -2,6 +2,7 @@ from django.shortcuts import render
 from main.models import Landmark, Image
 
 
+
 def index_page(request):
     return render(request, 'main/index.html', {})
 
