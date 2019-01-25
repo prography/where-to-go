@@ -11,14 +11,18 @@ def index_page(request):
 def select_page(request):
     count = request.GET.get('count')
     selected_img = request.GET.get('selected_img', None)
-
+    msgs=[
+    '가장 최근에 가본 여행지의 느낌을 선택해주세요.',
+    '가장 인상 깊었던 여행지의 느낌을 선택해주세요.',
+    '마지막으로 가장 궁금한 여행지의 느낌을 선택해주세요',
+    ]
     if count == "1":
         img1 = Image.objects.filter(cluster1=0).order_by('?').first()
         img2 = Image.objects.filter(cluster1=1).order_by('?').first()
         img3 = Image.objects.filter(cluster1=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=3).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': int(count) + 1,
+        return render(request, 'main/select.html', {'msg':msgs[0],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     elif count == "2":
@@ -30,7 +34,7 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=cluster1, cluster2=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=3).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': int(count) + 1,
+        return render(request, 'main/select.html', {'msg':msgs[1],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     elif count == "3":
@@ -43,7 +47,7 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
 
-        return render(request, 'main/select.html', {'count': int(count) + 1,
+        return render(request, 'main/select.html', {'msg':msgs[2],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
     # resultPage

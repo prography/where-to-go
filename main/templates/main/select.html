@@ -30,7 +30,9 @@
     <source src='{% static "video/main2.mp4" %}' type="video/mp4">
 </video>
     <div class="text-position maintext">
-                <h5 style="color:aliceblue">마음에 드는 여행지를 고르세요</h5></br>
+                <h5 style="color:aliceblue">
+                  {{msg}}  [{{count|add:-1}}/3]
+                </h5></br>
                 <div class="col-box">
                     <div class="col-2">
                         <a href="{% url 'main:select' %}?count={{count}}&selected_img={{ img1 }}">
