@@ -1,4 +1,3 @@
-id,landmark_id,landmark_name,image_url,cluster1,cluster2,cluster3
 0,0,32.05,landmark/32.05/2.jpg,0,1,1
 1,0,32.05,landmark/32.05/3.jpg,3,3,2
 2,1,Altes Tramdepot,landmark/Altes Tramdepot/1.jpg,3,3,2
