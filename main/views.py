@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.db.models import Q
 from main.models import Landmark, Image
 
 
@@ -38,10 +37,10 @@ def select_page(request):
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
 
-        img1 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img2 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
+        img1 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=0).order_by('?').first()
+        img2 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=1).order_by('?').first()
+        img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=2).order_by('?').first()
+        img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=3).order_by('?').first()
 
         return render(request, 'main/select.html', {'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
