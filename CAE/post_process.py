@@ -52,7 +52,7 @@ with codecs.open('clustered_image_db.csv', 'r', 'utf-8') as csvfile:
             new_lines.append(new_line)
 
 
-with codecs.open('result/image_db.csv', 'w', 'utf-8') as csvfile:
+with codecs.open('../image_db.csv', 'w', 'utf-8') as csvfile:
     csvwriter = csv.writer(csvfile)
     for line in new_lines:
         csvwriter.writerow(line)
