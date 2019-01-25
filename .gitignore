@@ -7,3 +7,5 @@ db.sqlite3
 .DS_Store
 .idea
 main/migrations
+*image_db.csv*
+*landmark_db.csv*
