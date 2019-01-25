@@ -2,7 +2,7 @@ from main.models import Landmark, Image
 import csv
 import codecs
 
-path2 = "image_db.csv"
+path2 = "image_db_fin.csv"
 
 with codecs.open(path2, encoding='utf-8') as f:
     reader = csv.reader(f)

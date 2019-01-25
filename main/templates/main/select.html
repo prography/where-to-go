@@ -41,7 +41,7 @@
                               <!-- <div class="frame">
                                 <div class="border">
                                   <div class="image"> -->
-                                    <img src="/static/{{ img1 }}" />
+                                    <img class="borderimg2" src="/static/{{ img1 }}" />
                                   <!-- </div>
                                 </div>
                               </div> -->
@@ -53,7 +53,7 @@
                               <!-- <div class="frame">
                                 <div class="border">
                                   <div class="image"> -->
-                                    <img src="/static/{{ img2 }}" />
+                                    <img class="borderimg2" src="/static/{{ img2 }}" />
                                   <!-- </div>
                                 </div>
                               </div> -->
@@ -67,7 +67,7 @@
                               <!-- <div class="frame">
                                 <div class="border">
                                   <div class="image"> -->
-                                    <img src="/static/{{ img3 }}" />
+                                    <img class="borderimg2" src="/static/{{ img3 }}" />
                                   <!-- </div>
                                 </div>
                               </div> -->
@@ -79,7 +79,7 @@
                               <!-- <div class="frame">
                                 <div class="border">
                                   <div class="image"> -->
-                                    <img src="/static/{{ img4 }}" />
+                                    <img class="borderimg2" src="/static/{{ img4 }}" />
                                   <!-- </div>
                                 </div>
                               </div> -->
@@ -90,7 +90,22 @@
   <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
 </body>
 </html>
-<style media="screen">
+<style>
+.borderimg1 {
+  border: 10px solid transparent;
+  padding: 3px;
+  -webkit-border-image: url(/static/image/border.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(/static/image/border.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(/static/image/border.png) 30 round;
+}
+
+.borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(/static/image/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(/static/image/border.png) 30 stretch; /* Opera 11-12.1 */
+  border-image: url(/static/image/border.png) 30 stretch;
+}
 .frame {
 margin:50px auto;
 border:25px solid #222;
