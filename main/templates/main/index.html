@@ -16,7 +16,8 @@ h3{
   color: #fff;
   margin:0;
   padding:0;
-	}
+  background-color: rgba(123, 163, 238, 0.8);
+  }
 /* Centered texts in each section
 * --------------------------------------- */
 .section{
@@ -39,12 +40,13 @@ h3{
   transform: translateY(-50%);
   position: relative;
 }
+
 	</style>
 <body>
 <div id="fullpage">
   <div class="section " id="section0">
-    <div class="text-position maintext textshadow">
-    <h3><b>오늘 어디가?</b></h3>
+    <div class="text-position maintext">
+    <h3><b>오늘 어디가?</b></h3><br/>
     <a href="{% url 'main:select' %}?count={{1}}"><div class="main-btn"><b>start</b></div></a>
     </div>
 

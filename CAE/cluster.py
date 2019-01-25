@@ -142,7 +142,3 @@ for cluster_idx_1 in range(4):
             csvwriter = csv.writer(csvfile)
             for line in new_lines:
                 csvwriter.writerow(line)
-        with codecs.open('../image_db.csv', 'w', 'utf-8') as csvfile:
-            csvwriter = csv.writer(csvfile)
-            for line in new_lines:
-                csvwriter.writerow(line)

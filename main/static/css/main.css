@@ -21,9 +21,7 @@ p{
   text-align:center;
 }
 
-a{
-  color: white;
-}
+
 
 .white-typo {
   color: #fff;
@@ -71,12 +69,12 @@ b{
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.555);
   line-height: 56px;
   margin: 0 auto;
 }
 .main-btn:hover{
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.918);
 }
 
 .main-footer{
@@ -105,7 +103,6 @@ b{
 /* ------------------------------------------------------- */
 /*resultPage.html*/
 .col-1{
-  margin-bottom: 30px;
   width:1060px;
 }
 .col-3{
@@ -132,12 +129,11 @@ b{
 }
 
 /*fix image size*/
-.wrap-test-2{
-  max-width: 800px;
-  max-height: 600px;
-  overflow: hidden;
-  margin-bottom: 50px;
+.wrap-test-similar img{
+  width: 300px;
+  height: 200px;
 }
+
 .wrap-test .wrap-test-2 .wrap{
   max-width: initial;
 }

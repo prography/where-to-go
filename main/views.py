@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.db.models import Q
 from main.models import Landmark, Image
 
 
@@ -22,6 +21,14 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=3).order_by('?').first()
 
+        try:
+            print(img1.cluster1)
+            print(img2.cluster1)
+            print(img3.cluster1)
+            print(img4.cluster1)
+        except:
+            pass
+
         return render(request, 'main/select.html', {'msg':msgs[0],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
@@ -34,6 +41,14 @@ def select_page(request):
         img3 = Image.objects.filter(cluster1=cluster1, cluster2=2).order_by('?').first()
         img4 = Image.objects.filter(cluster1=cluster1, cluster2=3).order_by('?').first()
 
+        try:
+            print(img1.cluster1, img1.cluster2)
+            print(img2.cluster1, img2.cluster2)
+            print(img3.cluster1, img3.cluster2)
+            print(img4.cluster1, img4.cluster2)
+        except:
+            pass
+
         return render(request, 'main/select.html', {'msg':msgs[1],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
 
@@ -42,10 +57,18 @@ def select_page(request):
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
 
-        img1 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img2 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
-        img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2).order_by('?').first()
+        img1 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=0).order_by('?').first()
+        img2 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=1).order_by('?').first()
+        img3 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=2).order_by('?').first()
+        img4 = Image.objects.filter(cluster1=cluster1, cluster2=cluster2, cluster3=3).order_by('?').first()
+
+        try:
+            print(img1.cluster1, img1.cluster2, img1.cluster3)
+            print(img2.cluster1, img2.cluster2, img2.cluster3)
+            print(img3.cluster1, img3.cluster2, img3.cluster3)
+            print(img4.cluster1, img4.cluster2, img4.cluster3)
+        except:
+            pass
 
         return render(request, 'main/select.html', {'msg':msgs[2],'count': int(count) + 1,
                                                     'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
