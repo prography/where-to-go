@@ -8,7 +8,6 @@ with codecs.open(path2, encoding='utf-8') as f:
     reader = csv.reader(f)
     next(reader)
     for row in reader:
-        # print(r4, type(r4))
         _, created = Image.objects.get_or_create(
             landmark = Landmark.objects.get(landmark=row[2]),
             url = row[3],
