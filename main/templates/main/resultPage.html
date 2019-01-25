@@ -12,6 +12,7 @@
   <!-- 라이브러리 -->
   <!-- <link rel="stylesheet" type="text/css" href='{% static "css/fullpage.min.css" %}' /> -->
   <link rel="stylesheet" type="text/css" href='{% static "css/materialize.min.css" %}' />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- style  -->
   <link rel="stylesheet" type="text/css" href='../../static/css/main.css' />
   <!-- font -->
@@ -19,16 +20,32 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   <style>
     .wrap-test-similar img{
-  width: 300px;
-  height: 200px;
-}
+    width: 300px;
+    height: 200px;
+    }
+    .tooltip:hover{text-decoration: none;}
+    .tooltip span{
+      visibility: hidden;
+      padding:4px 10px;
+      border-radius: 6px;
+    }
+    .tooltip:hover span{
+      visibility: visible;
+      position: relative;
+      color: #EEE;
+      background: #333;
+      text-align: center;
+    }
+    .tooltip{
+      text-align: center;
+    }
   </style>
 </head>
 {% include "main/loader2.html" %}
 
-<body id="body">
+<body id="body" >
     <video class="video-test" autoplay loop>
-        <source src='../../static/video/main2.mp4' type="video/mp4">
+        <source src='../../static/video/main2.mp4' style="height:150%" type="video/mp4">
     </video>
 		<div class="col-container">
             <div class="col-box" >
@@ -87,12 +104,15 @@
                 <p class="white-typo"><b>당신을 위한 여행지는</b>
                 <b> "{{ result_land.country }} 의 {{ result_land.landmark }}" </b>
                 <b> 입니다</b></p><br/><br/>
-        <div class="">
+            <div class="">
             <p class="white-typo" style="font-size:15px">이런 여행지는 어떠신가요?</p>
+            </div>
             <div class="col-box">
               {% for img in similar_img %}
-                <div class="col-3">
-                  <div class="wrap-test-similar"><img src='/static/{{img.url}}'/></div>
+                <div class="col-3 tooltip">
+                  <div class="wrap-test-similar"><img src='/static/{{img.url}}'/>
+                  </div>
+                  <span>{{ img.landmark.landmark }}</span>
                 </div>
               {% endfor %}
             </div>
@@ -105,8 +125,7 @@
                   justify-content: center;
                 }
               </style>
-        </div>
-        </button>
+            </button>
         </div>
 </body>
 </html>
