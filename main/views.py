@@ -50,9 +50,12 @@ def select_page(request):
             pass
 
         return render(request, 'main/select.html', {'msg':msgs[1],'count': int(count) + 1,
-                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
+                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url, 'first':choice.url})
 
     elif count == "3":
+        first = request.GET.get('first', None)
+        first = Image.objects.get(url=first)
+
         choice = Image.objects.get(url=selected_img)
         cluster1 = choice.cluster1
         cluster2 = choice.cluster2
@@ -71,7 +74,7 @@ def select_page(request):
             pass
 
         return render(request, 'main/select.html', {'msg':msgs[2],'count': int(count) + 1,
-                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url})
+                                                    'img1':img1.url, 'img2':img2.url, 'img3':img3.url, 'img4':img4.url, 'prev':choice.url, 'first':first})
 
     # resultPage
     elif count == "4":
