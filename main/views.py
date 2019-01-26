@@ -11,9 +11,9 @@ def select_page(request):
     count = request.GET.get('count')
     selected_img = request.GET.get('selected_img', None)
     msgs=[
-    '가장 최근에 가본 여행지의 느낌을 선택해주세요.',
+    '나의 여행 스타일과 가장 비슷한 사진을 선택해주세요.',
     '가장 인상 깊었던 여행지의 느낌을 선택해주세요.',
-    '마지막으로 가장 궁금한 여행지의 느낌을 선택해주세요',
+    '마지막으로 가장 궁금한 여행지의 사진을 선택해주세요',
     ]
     if count == "1":
         img1 = Image.objects.filter(cluster1=0).order_by('?').first()
